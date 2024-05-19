@@ -1,0 +1,32 @@
+{
+  "welcome": {
+    "banner": {
+      "headline": "Miriam Gertz",
+      "sublines": [
+        "Psychotherapeutin in Ausbildung unter Supervision",
+        "(Systemische Familientherapie)",
+        "Familienplanungsberaterin",
+        "Psychologin"
+      ]
+    },
+    "title": "HERZLICH WILLKOMMEN",
+    "text": "Als Psychotherapeutin in Ausbildung unter Supervision begleite ich Erwachsene, Jugendliche, Paare und Familien in Krisen, herausfordernden Übergängen und Entwicklungsprozessen."
+  },
+  "offers": [
+    {
+      "title": "Psychotherapie",
+      "text": "In der Psychotherapie unterstütze ich Sie dabei, Ihre Ressourcen zu aktivieren und neue Lösungswege zu finden. Gemeinsam schauen wir auf Ihre Lebensgeschichte, Ihre Beziehungen und Ihre aktuelle Lebenssituation. Dabei ist es mir wichtig, Sie in Ihrer Einzigartigkeit und Würde zu respektieren und zu begleiten.",
+      "image": "psychotherapie.jpg"
+    },
+    {
+      "title": "Familienplanungsberatung",
+      "text": "In der Familienplanungsberatung begleite ich Sie bei Fragen rund um die Familienplanung, Schwangerschaft, Geburt und Elternschaft. Ich unterstütze Sie dabei, Ihre Bedürfnisse und Wünsche zu klären und eine für Sie passende Entscheidung zu treffen.",
+      "image": "psychotherapie.jpg"
+    },
+    {
+      "title": "Systemische Familientherapie",
+      "text": "In der Systemischen Familientherapie betrachten wir Ihre Anliegen im Kontext Ihrer Familie und Ihres sozialen Umfelds. Wir schauen auf die Wechselwirkungen und Muster in Ihren Beziehungen und entwickeln gemeinsam neue Perspektiven und Handlungsmöglichkeiten.",
+      "image": "psychotherapie.jpg"
+    }
+  ]
+}
