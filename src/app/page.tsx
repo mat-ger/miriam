@@ -9,20 +9,20 @@ export default async function Page() {
   return (
     <section className={styles.container}>
       <div className={styles.backgroundLayer}>
-        <Image src={home} alt="Banner Bild" fill />
+        <Image src={home} alt="Banner Bild" fill className={styles.image} />
       </div>
       <div className={styles.content}>
-        <div className={styles.box}>
+        <div className={styles.smallBox}>
           <h1>{dict.welcome.banner.headline}</h1>
           {dict.welcome.banner.sublines.map((subline) => (
             <p key={subline}>{subline}</p>
           ))}
         </div>
-        <div className={styles.box}>
-          <h1>{dict.welcome.banner.headline}</h1>
-          {dict.welcome.banner.sublines.map((subline) => (
-            <p key={subline}>{subline}</p>
-          ))}
+        <div className={styles.bigBox}>
+          <div className={styles.bigBoxContent}>
+            <h2>{dict.welcome.title}</h2>
+            <p>{dict.welcome.text}</p>
+          </div>
         </div>
       </div>
     </section>

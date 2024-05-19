@@ -67,3 +67,26 @@ h1 {
   text-transform: uppercase;
 }
 
+h2 {
+  color: var(--headline);
+  font-size: 24px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+  padding-bottom: 24px;
+  margin-bottom: 24px;
+}
+
+h2::after {
+  content:'';
+  position:absolute;
+  width:64px;
+  height:1px;
+  background:var(--headline);
+  bottom:0;
+  left:0;
+  right:0;
+  margin:auto;
+}
+

@@ -1,3 +1,10 @@
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .backgroundLayer {
     position: absolute;
     top: 0;
@@ -7,18 +14,44 @@
 
 }
 
-.content {
-    height: 100%;
-    position: relative
-
+.image {
+    object-fit: cover;
 }
 
-.box {
+.content {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: scroll;
+}
+
+.smallBox {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: white;
-    min-width: 80%;
-    margin: 50% 10%;
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 100%;
+    max-width: 540px;
+    padding: 24px;
     text-align: right;
+    margin: 20vh 0;
 }
+
+.bigBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 1);
+    width: 100%;
+    padding: 24px;
+}
+
+.bigBoxContent {
+    width:100%;
+    max-width: 1024px;
+    margin: auto;
+}
+
