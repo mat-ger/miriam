@@ -1,32 +1,134 @@
 {
-  "welcome": {
-    "banner": {
-      "headline": "Miriam Gertz",
-      "sublines": [
-        "Psychotherapeutin in Ausbildung unter Supervision",
-        "(Systemische Familientherapie)",
-        "Familienplanungsberaterin",
-        "Psychologin"
+  "home": {
+    "welcome": {
+      "banner": {
+        "image": "banner",
+        "headline": "Miriam Gertz",
+        "sublines": [
+          "Psychotherapeutin in Ausbildung unter Supervision",
+          "(Systemische Familientherapie)",
+          "Familienplanungsberaterin",
+          "Psychologin"
+        ]
+      },
+      "title": "Herzlich Willkommen",
+      "text": "Als Psychotherapeutin in Ausbildung unter Supervision begleite ich Erwachsene, Jugendliche, Paare und Familien in Krisen, herausfordernden Übergängen und Entwicklungsprozessen."
+    },
+    "offersNav": {
+      "headline": "Mein Angebot",
+      "items": [
+        {
+          "title": "Psychotherapie",
+          "text": "In der Psychotherapie unterstütze ich Sie dabei, Ihre Ressourcen zu aktivieren und neue Lösungswege zu finden. Gemeinsam schauen wir auf Ihre Lebensgeschichte, Ihre Beziehungen und Ihre aktuelle Lebenssituation. Dabei ist es mir wichtig, Sie in Ihrer Einzigartigkeit und Würde zu respektieren und zu begleiten.",
+          "image": "psychotherapie",
+          "imageAlt": "psychotherapie -alt"
+        },
+        {
+          "title": "Paartherapie",
+          "text": "In der Familienplanungsberatung begleite ich Sie bei Fragen rund um die Familienplanung, Schwangerschaft, Geburt und Elternschaft. Ich unterstütze Sie dabei, Ihre Bedürfnisse und Wünsche zu klären und eine für Sie passende Entscheidung zu treffen.",
+          "image": "paartherapie",
+          "imageAlt": "Paartherapie -alt"
+        },
+        {
+          "title": "Familientherapie",
+          "text": "In der Systemischen Familientherapie betrachten wir Ihre Anliegen im Kontext Ihrer Familie und Ihres sozialen Umfelds. Wir schauen auf die Wechselwirkungen und Muster in Ihren Beziehungen und entwickeln gemeinsam neue Perspektiven und Handlungsmöglichkeiten.",
+          "image": "familientherapie",
+          "imageAlt": "Familientherapie -alt"
+        },
+        {
+          "title": "Schwangerschaftsberatung",
+          "text": "In der Systemischen Familientherapie betrachten wir Ihre Anliegen im Kontext Ihrer Familie und Ihres sozialen Umfelds. Wir schauen auf die Wechselwirkungen und Muster in Ihren Beziehungen und entwickeln gemeinsam neue Perspektiven und Handlungsmöglichkeiten.",
+          "image": "schwangerschaftsberatung",
+          "imageAlt": "Schwangerschaftsberatung -alt"
+        }
       ]
     },
-    "title": "HERZLICH WILLKOMMEN",
-    "text": "Als Psychotherapeutin in Ausbildung unter Supervision begleite ich Erwachsene, Jugendliche, Paare und Familien in Krisen, herausfordernden Übergängen und Entwicklungsprozessen."
-  },
-  "offers": [
-    {
-      "title": "Psychotherapie",
-      "text": "In der Psychotherapie unterstütze ich Sie dabei, Ihre Ressourcen zu aktivieren und neue Lösungswege zu finden. Gemeinsam schauen wir auf Ihre Lebensgeschichte, Ihre Beziehungen und Ihre aktuelle Lebenssituation. Dabei ist es mir wichtig, Sie in Ihrer Einzigartigkeit und Würde zu respektieren und zu begleiten.",
-      "image": "psychotherapie.jpg"
+    "workFocus": {
+      "headline": "Arbeitsschwerpunkte",
+      "items": [
+        "Angst – Panik",
+        "Belastende Lebenssituationen",
+        "Beziehung(en) – Partnerschaft – Ehe",
+        "Chronische Erkrankungen",
+        "Depression",
+        "Elternschaft – Co-Elternschaft – Patchwork",
+        "Erschöpfung – Burnout",
+        "Erwachsenwerden",
+        "Familie",
+        "Freundschaftskonflikte",
+        "Geburt (Vorbereitung, Verarbeitung)",
+        "Kinderwunsch",
+        "Psychotische Störungen (Umgang mit psychotischen Erfahrungen)",
+        "Schlafstörungen",
+        "Schwangerschaft (Entscheidungen, Krisen, Begleitung)",
+        "Schwangerschaftsverlust",
+        "Selbstwert – Identität",
+        "Sexualität",
+        "Sinn – Sinnfindung",
+        "Stress",
+        "Trennung – Scheidung",
+        "Übergangsphasen",
+        "Verlust – Trauer"
+      ],
+      "text": "Dies ist nur eine Aufzählung meiner Schwerpunkte. Wenden Sie sich gern auch mit anderen Themen an mich und wir klären gemeinsam, ob eine Zusammenarbeit Ihrem Anliegen entsprechend sinnvoll ist."
     },
-    {
-      "title": "Familienplanungsberatung",
-      "text": "In der Familienplanungsberatung begleite ich Sie bei Fragen rund um die Familienplanung, Schwangerschaft, Geburt und Elternschaft. Ich unterstütze Sie dabei, Ihre Bedürfnisse und Wünsche zu klären und eine für Sie passende Entscheidung zu treffen.",
-      "image": "psychotherapie.jpg"
-    },
-    {
-      "title": "Systemische Familientherapie",
-      "text": "In der Systemischen Familientherapie betrachten wir Ihre Anliegen im Kontext Ihrer Familie und Ihres sozialen Umfelds. Wir schauen auf die Wechselwirkungen und Muster in Ihren Beziehungen und entwickeln gemeinsam neue Perspektiven und Handlungsmöglichkeiten.",
-      "image": "psychotherapie.jpg"
-    }
-  ]
+    "offers": [
+      {
+        "name": "psychotherapie",
+        "banner": {
+          "headline": "Psychotherapie",
+          "sublines": ["Evt. noch eine Zeile", "oder zwei"],
+          "image": "psychotherapie"
+        },
+        "categories": [
+          {
+            "headline": "Systemische Psychotherapie",
+            "sublines": ["Evt. noch eine Zeile", "oder zwei"]
+          }
+        ]
+      },
+      {
+        "name": "paartherapie",
+        "banner": {
+          "headline": "Paartherapie",
+          "sublines": ["Evt. noch eine Zeile", "oder zwei"],
+          "image": "paartherapie"
+        },
+        "categories": [
+          {
+            "headline": "Systemische Paartherapie",
+            "sublines": ["Evt. noch eine Zeile", "oder zwei"]
+          }
+        ]
+      },
+      {
+        "name": "familientherapie",
+        "banner": {
+          "headline": "Familientherapie",
+          "sublines": ["Evt. noch eine Zeile", "oder zwei"],
+          "image": "familientherapie"
+        },
+        "categories": [
+          {
+            "headline": "Systemische Familientherapie",
+            "sublines": ["Evt. noch eine Zeile", "oder zwei"]
+          }
+        ]
+      },
+      {
+        "name": "schwangerschaftsberatung",
+        "banner": {
+          "headline": "Schwangerschaftsberatung",
+          "sublines": ["Evt. noch eine Zeile", "oder zwei"],
+          "image": "schwangerschaftsberatung"
+        },
+        "categories": [
+          {
+            "headline": "Systemische Schwangerschaftsberatung",
+            "sublines": ["Evt. noch eine Zeile", "oder zwei"]
+          }
+        ]
+      }
+    ]
+  }
 }
