@@ -1,19 +1,16 @@
 import Image, { StaticImageData } from "next/image";
-import { getDictionary } from "./dictionaries/dictionaries";
 import banner from "../../public/home.jpg";
 import psychotherapie from "../../public/psychotherapie.jpg";
 import paartherapie from "../../public/paartherapie.jpg";
 import familientherapie from "../../public/familientherapie.jpg";
 import schwangerschaftsberatung from "../../public/schwangerschaftsberatung.jpg";
 import styles from "./page.module.css";
-import React, { useEffect } from "react";
+import React from "react";
 import Link from "next/link";
+import { getDictionary } from "@/dictionaries/dictionaries";
+import { ImageBg } from "@/components/image";
 
-export default async function Page() {
-  const {
-    home: { welcome, offersNav, workFocus, offers },
-  } = await getDictionary("de");
-
+export const App = async () => {
   const offerImages: Record<string, StaticImageData> = {
     banner,
     psychotherapie,
@@ -22,18 +19,13 @@ export default async function Page() {
     schwangerschaftsberatung,
   };
 
+  const { home } = await getDictionary("de");
+  const { welcome, offersNav, workFocus, offers } = home;
+
   return (
     <div className={styles.container}>
       <section className={styles.section}>
-        <Image
-          src={offerImages[welcome.banner.image]}
-          alt="Banner Bild"
-          fill
-          className={styles.imageContainer}
-          priority
-          placeholder="blur"
-          quality={100}
-        />
+        <ImageBg src={offerImages[welcome.banner.image]} />
         <div className={styles.content}>
           <div className={styles.smallBox}>
             <h1>{welcome.banner.headline}</h1>
@@ -124,4 +116,6 @@ export default async function Page() {
       ))}
     </div>
   );
-}
+};
+
+export default App;

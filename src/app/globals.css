@@ -5,11 +5,10 @@
     "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro",
     "Fira Mono", "Droid Sans Mono", "Courier New", monospace;
 
-  --foreground: rgba(0, 0, 0, 0.9); ;
+  --foreground: rgba(0, 0, 0, 0.9);
   --background: rgba(255, 255, 255, 1);
   --header-height: 112px;
-
-  --headline: #1B78AF;
+  --headline: #1b78af;
 
   --bp-xs: 540px;
   --bp-s: 600px;
@@ -48,7 +47,6 @@ main {
 
   margin-top: var(--header-height);
   height: 100%;
-
 }
 
 a {
@@ -56,7 +54,8 @@ a {
   text-decoration: none;
 }
 
-ol,ul {
+ol,
+ul {
   text-decoration: none;
   list-style-type: none;
 }
@@ -80,14 +79,13 @@ h2 {
 }
 
 h2::after {
-  content:'';
-  position:absolute;
-  width:64px;
-  height:2px;
-  background:var(--headline);
-  bottom:0;
-  left:0;
-  right:0;
-  margin:auto;
+  content: "";
+  position: absolute;
+  width: 64px;
+  height: 2px;
+  background: var(--headline);
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
 }
-

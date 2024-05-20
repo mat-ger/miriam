@@ -64,11 +64,6 @@
     grid-template-columns: repeat(2, 1fr);
   }
 
-  /* display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center; */
-
   @media screen and (min-width: 801px) {
     grid-template-columns: repeat(4, 1fr);
   }
@@ -87,6 +82,7 @@
 
 .offerNavImage {
   border-radius: 50%;
+  object-fit: cover;
 }
 
 .workFocusLayout {
