@@ -1,0 +1,76 @@
+.headlineContainer {
+  padding: 32px 0;
+  background-color: var(--background-grey);
+  width: 100vw;
+  margin-bottom: 12px;
+}
+
+.headline {
+  color: var(--headline);
+  font-size: 24px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+  padding-bottom: 24px;
+  margin-bottom: 24px;
+}
+.headline::after {
+  content: "";
+  position: absolute;
+  width: 64px;
+  height: 2px;
+  background: var(--headline);
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.bannerContainer {
+  display: flex;
+  @media screen and (max-width: 800px) {
+    flex-direction: column;
+  }
+}
+
+.textContainer {
+  width: 100%;
+  padding-top: 32px;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.imageContainer {
+  margin: auto;
+  width: 50%;
+  @media screen and (max-width: 800px) {
+    width: 100%;
+  }
+  & img {
+    position: unset;
+  }
+}
+
+.textAdress {
+  margin-top: 32px;
+  margin-bottom: 64px;
+}
+
+.adressContainer {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+
+  @media screen and (max-width: 800px) {
+    width: 100%;
+  }
+}
+
+.adreessLine {
+  display: flex;
+  gap: 8px;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+}

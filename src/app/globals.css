@@ -7,6 +7,7 @@
 
   --foreground: rgba(0, 0, 0, 0.9);
   --background: rgba(255, 255, 255, 1);
+  --background-grey: rgba(245, 245, 245);
   --header-height: 112px;
   --headline: #1b78af;
 
@@ -38,6 +39,7 @@ body {
   background-color: var(--background);
   height: -webkit-fill-available;
   scroll-behavior: smooth;
+  line-height: 1.8em;
 }
 
 main {

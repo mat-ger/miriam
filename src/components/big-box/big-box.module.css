@@ -1,0 +1,15 @@
+.bigBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 1);
+  width: 100%;
+  padding: 64px 16px;
+  flex: 1;
+}
+
+.bigBoxContent {
+  width: 100%;
+  max-width: 1024px;
+  margin: auto;
+}

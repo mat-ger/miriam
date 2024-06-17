@@ -1,0 +1,23 @@
+.workFocusLayout {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 24px;
+
+  & li {
+    flex-grow: 1;
+    border: 1px solid grey;
+    border-radius: 8px;
+    padding: 8px;
+    text-align: center;
+  }
+
+  & li:nth-child(even) {
+    border: 1px solid #dfe1e0;
+    background-color: #dfe1e0;
+  }
+  & li:nth-child(odd) {
+    border: 1px solid #b4c6d0;
+    background-color: #b4c6d0;
+  }
+}

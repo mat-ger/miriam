@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Open_Sans } from "next/font/google";
 import "./globals.css";
 import styles from "./layout.module.css";
-import { Header } from "../components/header";
+import { Header } from "../components/header/header";
 
 const inter = Open_Sans({
   subsets: ["latin"],

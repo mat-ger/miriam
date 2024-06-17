@@ -1,0 +1,76 @@
+.banner {
+  display: flex;
+  justify-content: space-around;
+  max-width: var(--max-width);
+  margin: auto;
+
+  @media screen and (max-width: 800px) {
+    flex-direction: column;
+  }
+}
+
+.headlineContainer {
+  padding: 32px 0;
+  background-color: var(--background-grey);
+  width: 100vw;
+  margin-bottom: 12px;
+}
+
+.headline {
+  color: var(--headline);
+  font-size: 24px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+  padding-bottom: 24px;
+  margin-bottom: 24px;
+}
+.headline::after {
+  content: "";
+  position: absolute;
+  width: 64px;
+  height: 2px;
+  background: var(--headline);
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.imageContainer {
+  margin: auto;
+
+  & img {
+    position: unset;
+  }
+}
+
+.textSide {
+  padding: 32px 64px;
+  @media screen and (max-width: 800px) {
+    padding: 32px 18px;
+  }
+}
+
+.list {
+  margin: 18px;
+  list-style-type: disc;
+  & li {
+    padding-bottom: 4px;
+  }
+  & span {
+    font-weight: bold;
+  }
+}
+
+.bigBocContainer {
+  & h2 {
+    margin: 64px 0;
+  }
+}
+
+.textBlock {
+  font-style: italic;
+  text-align: justify;
+}

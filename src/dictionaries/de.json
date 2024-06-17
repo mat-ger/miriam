@@ -70,7 +70,7 @@
         "Übergangsphasen",
         "Verlust – Trauer"
       ],
-      "text": "Dies ist nur eine Aufzählung meiner Schwerpunkte. Wenden Sie sich gern auch mit anderen Themen an mich und wir klären gemeinsam, ob eine Zusammenarbeit Ihrem Anliegen entsprechend sinnvoll ist."
+      "text": "Dies ist nur eine Aufzählung meiner Schwerpunkte. Wenden Sie sich gern auch mit anderen Themen an mich und wir klären gemeinsam, ob eine Zusammenarbeit Ihrem Anliegen entsprechend sinnvoll ist. Ich arbeite im Einzel-, Paar- & Mehrpersonen-/Familiensetting."
     },
     "offers": [
       {
@@ -83,7 +83,15 @@
         "categories": [
           {
             "headline": "Systemische Psychotherapie",
-            "sublines": ["Evt. noch eine Zeile", "oder zwei"]
+            "text": "Systemische (Familien-)Therapie ist eine Form der Psychotherapie, die Gesundheit und Krankheit, Leiden und Wohlbefinden im Zusammenhang mit relevanten Beziehungen, mit dem Selbstbezug und den Lebenskonzepten von Menschen sieht. Wir verstehen Psychotherapie als Rahmen, in welchem Klient:innen unter Einbeziehung ihrer sozialen Lebenswelt in autonomer Weise gegebene Leidenszustände auflösen bzw. für sie passende Lösungen entwickeln. (Quelle: Homepage der Lehranstalt für Systemische Familientherapie, Mai 20241, https://www.lasf.at/ausbildung/) Besonders wichtig ist es mir, Ihnen grundlegend mit Offenheit und Wertschätzung für Ihre Erfahrungen, Strategien und bisherigen Lösungsversuche zu begegnen. In der gemeinsamen Arbeit orientieren wir uns an Ihren Anliegen und Bedürfnissen. Das daraus hergeleitete Auftragsziel setzt als Wegweiser und Leuchtturm den Fokus der Therapie. Dabei ist es absolut in Ordnung, wenn Sie anfangs noch gar nicht so genau wissen, wohin Ihre Reise gehen soll, und auch, wenn Zielvorstellungen sich im Laufe der Zeit verändern. Methodisch arbeite ich hauptsächlich im Gespräch. Ergänzend biete ich - je nachdem was zu Ihnen und Ihrem Anliegen passt – symbolisierende, visualisierende und externalisierende Praktiken (Aufstellungen mit dem Systembrett, Timeline, Zeichnen, Malen etc.), hypnosystemische Techniken (ressourcenaktivierende Arbeit mit Trance-Zuständen, Imaginationsübungen) sowie achtsamkeitsorientierte Methoden an. Dabei sind eine konstruktivistische Grundhaltung und der narrative Ansatz besonders prägend für mein therapeutisches Angebot."
+          },
+          {
+            "headline": "Konstruktivismus",
+            "text": "Im Konstruktivismus (auch „Beobachtertheorie“ genannt) wird davon ausgegangen, dass wir Menschen die Welt unterschiedlich wahrnehmen – je nach dem, welche Bedeutung die Phänomene für uns haben. Das wiederum hängt von unseren Vorerfahrungen, der sozialen Position, der körperlichen Konstitution etc. ab. Bei Konflikten zwischen Einzelpersonen oder auch gesellschaftlichen Gruppen kann ziemlich deutlich werden, dass wir oft „in verschiedenen Welten“ leben – die uns allen jeweils „wirklich und wahr“ vorkommen. Wir brauchen ein Weltbild – wie eine Landkarte – , um uns zu orientieren und handlungsfähig zu sein. Psychotherapie ermöglicht es, sich mit dem eigenen Standort und der eigenen Landkarte, mit der Sie durchs Leben gehen, auseinanderzusetzen und sie gegebenenfalls zu aktualisieren. Darüber hinaus kann auch das Verständnis für die Karten der anderen wachsen."
+          },
+          {
+            "headline": "Narrativer Ansatz",
+            "text": "Die narrative Therapie (nach M. White, D. Epston, J. Freedman etc.) basiert auf der Beobachtung, dass wir Menschen unseren Leben durch Geschichten Bedeutung verleihen. Dabei gibt es über jedes Leben eine Vielzahl an Geschichten zu erzählen. Mit welchen Erzählungen wir unsere Identität eng verknüpfen und auf welche Art wir Geschichten, die andere über uns erzählen, annehmen, spielt eine große Rolle dafür, wie es uns geht. Diese Geschichten sind unsere Realität. Schwierige, vielleicht auch gewaltvolle Erfahrungen können als solche nicht aufgelöst werden. Das narrative Arbeiten ermöglicht jedoch, sie auf passende und ressourcen-aktivierende Weise in die eigene Lebensgeschichte einzuordnen und so zu mehr Ruhe zu kommen. Relevant für die Art und Weise, wie wir uns erzählen, sind auch gesellschaftliche Diskurse über soziale Gruppen, zu denen wir gehören, und kulturelle Wertvorstellungen. Gern möchte ich Sie dabei begleiten, Ihre hilfreichen und stärkenden Geschichten (wieder) zu finden und auszubauen."
           }
         ]
       },
@@ -97,7 +105,7 @@
         "categories": [
           {
             "headline": "Systemische Paartherapie",
-            "sublines": ["Evt. noch eine Zeile", "oder zwei"]
+            "text": "Evt. noch eine Zeile"
           }
         ]
       },
@@ -111,7 +119,7 @@
         "categories": [
           {
             "headline": "Systemische Familientherapie",
-            "sublines": ["Evt. noch eine Zeile", "oder zwei"]
+            "text": "Evt. noch eine Zeile"
           }
         ]
       },
@@ -125,10 +133,320 @@
         "categories": [
           {
             "headline": "Systemische Schwangerschaftsberatung",
-            "sublines": ["Evt. noch eine Zeile", "oder zwei"]
+            "text": "Evt. noch eine Zeile"
           }
         ]
       }
     ]
+  },
+  "conditions": {
+    "welcome": {
+      "banner": {
+        "image": "banner",
+        "headline": "Rahmenbedingungen",
+        "sublines": []
+      },
+      "title": "",
+      "text": ""
+    },
+    "categories": [
+      {
+        "headline": "Verschwiegenheit",
+        "items": [""],
+        "text": [
+          "Verschwiegenheit ist eine unverzichtbare Grundlage für die Psychotherapie und in §15 des Psychotherapiegesetzes als Berufspflicht festgehalten. Ihre persönlichen Themen sind bei mir sicher aufgehoben."
+        ]
+      },
+      {
+        "headline": "Erstgespräch",
+        "items": [""],
+        "text": [
+          "Nachdem Sie mich per Mail oder Telefon kontaktiert haben, vereinbaren wir einen Termin für ein Erstgespräch – entweder in meinem Raum im Therapiezentrum Rosensteingasse in 1170 Wien oder in den Räumen der Therapieambulanz AST in 1130 Wien.",
+          "Das Erstgespräch dient dem gegenseitigen Kennenlernen und der Klärung des Rahmens. Sie bekommen einen Einblick in meine Arbeitsweise und können alle Fragen stellen, die Sie zu Psychotherapie haben. Wir sprechen über Ihr Anliegen sowie ihre Erwartungen und Wünsche an die Psychotherapie und ich werde Ihnen rückmelden, ob sich Ihre Vorstellungen mit dem treffen, was ich anbieten kann. Zudem klären wir das mögliche psychotherapeutische Setting (Einzel-, Paar- oder Familientherapie, Häufigkeit der Sitzungen, Höhe des Honorars, Bezahlung des Honorars, Absageregelung).",
+          "Nach dem Erstgespräch können Sie in Ruhe entscheiden, ob Sie an einer Zusammenarbeit mit mir interessiert sind.",
+          "Das Erstgespräch bedeutet bereits den Einstieg in die Psychotherapie und wird zum gleichen Honorar wie eine reguläre Sitzung verrechnet"
+        ]
+      },
+      {
+        "headline": "Absageregelungen",
+        "items": [""],
+        "text": [
+          "Vereinbarte Termine sind verbindlich. Sollten Sie einen Termin nicht einhalten können, sagen Sie diesen bitte bis spätestens 48 Stunden im Voraus ab. Ansonsten wird der Termin zum vollen Tarif in Rechnung gestellt.  "
+        ]
+      },
+      {
+        "headline": "Absageregelungen",
+        "items": [""],
+        "text": [
+          "Vereinbarte Termine sind verbindlich. Sollten Sie einen Termin nicht einhalten können, sagen Sie diesen bitte bis spätestens 48 Stunden im Voraus ab. Ansonsten wird der Termin zum vollen Tarif in Rechnung gestellt.  "
+        ]
+      },
+      {
+        "headline": "Kosten",
+        "items": [""],
+        "table": [
+          {
+            "headline": "Psychotherapie (Einzelperson)",
+            "items": [
+              {
+                "label": "Einheit à 50 Min. ",
+                "value": "€ 75,-",
+                "type": ""
+              },
+              {
+                "label": "Einheit à 90 Min.",
+                "value": "€ 120,-",
+                "type": ""
+              }
+            ]
+          },
+          {
+            "headline": "Paartherapie / Familientherapie ",
+            "items": [
+              {
+                "label": "Einheit à 90 Min.",
+                "value": "€ 140,-",
+                "type": ""
+              }
+            ]
+          },
+          {
+            "headline": "Schwangerschafts(-konflikt)beratung",
+            "items": [
+              {
+                "label": "Einheit à 50 Min.",
+                "value": "€ 75,-",
+                "type": ""
+              }
+            ]
+          },
+          {
+            "headline": "Sozialtarife",
+            "items": [
+              {
+                "label": "Ich habe ein Kontingent an Therapieplätzen zu Sozialtarifen. Wenn es für Sie aus Kostengründen schwierig ist, eine Therapie in Anspruch zu nehmen, zögern Sie nicht, mich danach zu fragen.",
+                "value": "",
+                "type": ""
+              }
+            ]
+          }
+        ],
+        "text": [
+          "Eine Teilrefundierung der Kosten durch die Krankenkassen ist derzeit nicht möglich. Da ich Psychotherapeutin in Ausbildung unter Supervision bin, sind meine Honorare jedoch niedriger als diejenigen von eingetragenen Psychotherapeut*innen. "
+        ]
+      },
+      {
+        "headline": "Dauer & Frequenz",
+        "items": [""],
+        "text": [
+          "Die Häufigkeit der Sitzungen und die Dauer der Psychotherapie werden individuell vereinbart. Im Rahmen des Erstgesprächs treffen wir eine erste Vereinbarung, die bei Bedarf angepasst werden kann.",
+          "Die Psychotherapiesitzungen finden in der Regel entweder wöchentlich oder 14-tägig statt. "
+        ]
+      },
+      {
+        "headline": "Notfallkontakte",
+        "items": [""],
+        "text": [
+          "Wenn Sie akut über Selbstmord nachdenken, sich oder andere verletzen wollen, Gewalt erfahren oder sich Sorgen um Ihnen bekannte Personen machen, dann nehmen Sie so schnell wie möglich professionelle Hilfe in Anspruch. Folgende Einrichtungen helfen Ihnen in akuten Krisen: "
+        ],
+        "table": [
+          {
+            "headline": "Kriseninterventionszentrum Wien",
+            "items": [
+              {
+                "label": "Tel",
+                "value": "01 406 95 95",
+                "type": "phone"
+              },
+              {
+                "label": "Öffnungszeiten",
+                "value": "Mo–Fr 8–17 Uhr & Anrufbeantworter",
+                "type": "openingHours"
+              },
+              {
+                "label": "anonyme eMail-Beratung",
+                "value": "https://kriseninterventionszentrum.at",
+                "type": "website"
+              }
+            ]
+          },
+          {
+            "headline": "Sozialpsychiatrischer Notdienst/ PSD",
+            "items": [
+              {
+                "label": "Tel",
+                "value": "01 31330",
+                "type": "phone"
+              },
+              {
+                "label": "Öffnungszeiten",
+                "value": "täglich 0–24 Uhr",
+                "type": "openingHours"
+              },
+              {
+                "label": "Homepage",
+                "value": "https://psd-wien.at",
+                "type": "website"
+              }
+            ]
+          },
+          {
+            "headline": "für Kinder und Jugendliche ",
+            "items": [
+              {
+                "label": "Homepage",
+                "value": "https://bittelebe.at",
+                "type": "website"
+              }
+            ]
+          },
+          {
+            "headline": "Frauenhelpline ",
+            "items": [
+              {
+                "label": "Tel",
+                "value": "0800 222 555",
+                "type": "phone"
+              },
+              {
+                "label": "Öffnungszeiten",
+                "value": "täglich 0–24 Uhr",
+                "type": "openingHours"
+              },
+              {
+                "label": "Homepage",
+                "value": "https://frauenhelpline.at",
+                "type": "website"
+              }
+            ]
+          },
+          {
+            "headline": "Verbrechensopfer-Notruf",
+            "items": [
+              {
+                "label": "Tel",
+                "value": "0800 112 112",
+                "type": "phone"
+              },
+              {
+                "label": "Öffnungszeiten",
+                "value": "täglich 0–24 Uhr",
+                "type": "openingHours"
+              },
+              {
+                "label": "Homepage",
+                "value": "https://opfer-notruf.at",
+                "type": "website"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "about": {
+    "banner": {
+      "image": "miriam",
+      "headline": "Über mich",
+      "sublines": [
+        "Mein Name ist Miriam Gertz.",
+        "Ich bin Psychotherapeutin in Aus-bildung unter Supervision, Psychologin (MSc.) und Familienplanungsberaterin (ÖGF).",
+        "In 1170 Wien und 1130 Wien biete ich systemische Psychotherapie und Beratung an. Ich bin in Süddeutschland geboren, in Norddeutschland in Ostseenähe aufgewachsen, lebe seit 2011 in Wien West und bin Mutter zweier Kinder.",
+        "Was bedeutet „in Ausbildung unter Supervision“?",
+        "Nach meinem Psychologiestudium habe ich die sechsjährige Psychotherapie-ausbildung begonnen, bei der ich mich nun im letzten Abschnitt befinde. Ich bin damit dazu berechtigt, selbstständig psychotherapeutisch zu arbeiten. Zur Gewähleistung der Qualität meiner Arbeit reflektiere ich mein therapeutisches Vorgehen regelmäßig unter Wahrung der Verschwiegenheit in Supervisionssitzungen mit erfahrenen Lehrtherapeut:innen."
+      ]
+    },
+    "cv": [
+      {
+        "headline": "PRAXISERFAHRUNG & TÄTIGKEITSBEREICHE",
+        "items": [
+          {
+            "title": "Universität Wien ",
+            "subtitle": "laufende Tätigkeit als Lehrende im Fach Qualitative Forschungsmethoden in der Psychologie.",
+            "link": ""
+          },
+          {
+            "title": "Universitätsklinikum Tulln",
+            "subtitle": "Praktikum in der Abteilung für stationäre Psychotherapie",
+            "link": ""
+          },
+          {
+            "title": "Therapieambulanz AST",
+            "subtitle": "Praktikum im therapeutischen Team",
+            "link": ""
+          },
+          {
+            "title": "Verein LOK Leben ohne Krankenhaus",
+            "subtitle": "Betreuung in einem sozialpsychiatrischen Beschäftigungsprojekt",
+            "link": ""
+          },
+          {
+            "title": "Projekt miteinander.Bildung.leben (FH Campus Wien)",
+            "subtitle": "psychosoziale Beratung und Begleitung sowie Bildungsberatung von Menschen mit Fluchterfahrung",
+            "link": ""
+          },
+          {
+            "title": "pro:woman (Ambulatorium am Fleischmarkt)",
+            "subtitle": "Entscheidungsberatung bei „Schwangerschaftskonflikten“, Begleitung durch den Schwangerschaftsabbruch, Nachbetreuung",
+            "link": ""
+          },
+          {
+            "title": "FEM Frauengesundheitszentrum Wien",
+            "subtitle": "Praktikum im Rahmen des Psychologiestudiums",
+            "link": ""
+          },
+          {
+            "title": "Universität Wien (Psychologische Fakultät)",
+            "subtitle": "Studienassistenz bei Prof. Dr. Slunecko und Dr.in Riegler",
+            "link": ""
+          },
+          {
+            "title": "Weltweite Initiative für soziales Engagement e.V.",
+            "subtitle": "Freiwilligendienst in psychosozialen und pädagogischen Projekten in Bolivien",
+            "link": ""
+          }
+        ]
+      },
+      {
+        "headline": "AUSBILDUNG & WEITERBILDUNG",
+        "items": [
+          {
+            "title": "seit 2022",
+            "subtitle": "laufendes Psychotherapeutisches Fachspezifikum (Lehranstalt für systemische Familientherapie Wien)",
+            "link": ""
+          },
+          {
+            "title": "2022",
+            "subtitle": "Abschluss Psychotherapeutisches Propädeutikum (APG Wien)",
+            "link": ""
+          },
+          {
+            "title": "2019",
+            "subtitle": "Abschluss Masterstudium Psychologie (Universität Wien)",
+            "link": ""
+          },
+          {
+            "title": "2019",
+            "subtitle": "Intensiv-Lehrgang zur Familienplanungsberaterin (ÖGF Wien)",
+            "link": ""
+          },
+          {
+            "title": "2011/ 2012",
+            "subtitle": "Bachelorstudium Internationale Entwicklung (Universität Wien, ohne Abschluss)",
+            "link": ""
+          }
+        ]
+      }
+    ],
+    "text": "Ich absolviere neben den Ausbildungskursen laufend Fortbildungen in verschiedenen Bereichen.",
+    "subText": {
+      "headline": "Themenbereiche bisheriger Fortbildungen:",
+      "text": "Narrative Therapie, Kinderschutz, Geburtsvorbereitung, Entscheidungen undVerlustergebnisse rund um Schwangerschaft mit besonderer Berücksichtigung derPränataldiagnostik, Beratung und Begleitung für Familien nach medizinisch assistierterReproduktion, Frauengesundheit, Psychische Herausforderungen nach der Geburt,Schwangerschaftsabbruch, Erste Hilfe bei psychiatrischem Klientel, hypnosystemischeKrisenintervention uvm."
+    }
+  },
+  "contact": {
+    "banner": {
+      "headline": "Kontakt & Praxis"
+    }
   }
 }

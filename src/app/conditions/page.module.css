@@ -1,0 +1,26 @@
+.container {
+  margin-bottom: 64px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  text-align: start;
+  padding: 0 12px;
+}
+
+.table th {
+  width: 100%;
+  margin-top: 12px;
+}
+
+.table tr {
+  display: flex;
+  justify-content: space-between;
+  max-width: 554px;
+  margin: auto;
+}
