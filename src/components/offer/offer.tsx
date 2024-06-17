@@ -30,8 +30,9 @@ export const Offers: React.FC<{ offers: Dictionary["home"]["offers"] }> = ({
         <BigBox>
           {offer.categories.map((category) => (
             <div key={category.headline} className={styles.categoryContainer}>
-              <h2 >{category.headline}</h2>
-              {category.text && <p>{category.text}</p>}
+              <h2>{category.headline}</h2>
+              {category.text &&
+                category.text.map((item) => <p key={item}>{item}</p>)}
             </div>
           ))}
         </BigBox>

@@ -14,10 +14,10 @@ export const Header = () => {
           <span />
           <ul className={styles.menu}>
             <li className={`${styles.textLogo} ${styles.spaces}`}>
-              <Link href="/">Miriam Gertz</Link>
+              <Link href="/">Miriam Gertz, MSc</Link>
             </li>
             <li>
-              <Link href="/">Home</Link>
+              <Link href="/">Angebote</Link>
             </li>
             <li>
               <Link href="/conditions">Rahmenbedingungen</Link>
@@ -28,7 +28,9 @@ export const Header = () => {
             <li>
               <Link href="/contact">Kontakt</Link>
             </li>
-            <li className={styles.spaces}>+43 660 712 54 04</li>
+            <li className={styles.spaces}>
+              <a href="tel:+436703542978">+43 670 3542978</a>
+            </li>
           </ul>
         </div>
       </nav>

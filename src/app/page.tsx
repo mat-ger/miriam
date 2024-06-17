@@ -6,7 +6,7 @@ import { FocusModule } from "@/components/workfocus/focus";
 import { Offers } from "@/components/offer/offer";
 import { PageContainer } from "@/components/page-container/page-container";
 
-export const App = async () => {
+const App = async () => {
   const { home } = await getDictionary("de");
   const { welcome, offersNav, workFocus, offers } = home;
 

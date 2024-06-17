@@ -2,7 +2,8 @@
 const nextConfig = {
   output: "export",
   images: { unoptimized: true },
-  // basePath: "/Users/mathis.gertz/Projects/miriam-site/out",
+  basePath: "/miriam", // replace <repository-name> with your repository name
+  assetPrefix: process.env.NODE_ENV === "production" ? "/miriam/" : "", // replace <repository-name> with your repository name
 };
 
 export default nextConfig;
