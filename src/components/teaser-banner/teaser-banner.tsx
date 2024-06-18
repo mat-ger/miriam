@@ -10,7 +10,7 @@ export const TeaserBanner: React.FC<{
 }> = ({ welcome }) => {
   return (
     <Section>
-      <ImageBg src="banner" />
+      <ImageBg src="/banner.jpg" />
       <div className={styles.content}>
         <div className={styles.smallBox}>
           <h1>{welcome.banner.headline}</h1>

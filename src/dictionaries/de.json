@@ -2,7 +2,7 @@
   "home": {
     "welcome": {
       "banner": {
-        "image": "banner",
+        "image": "/banner.jpg",
         "headline": "Miriam Gertz",
         "sublines": [
           "Psychotherapeutin (Systemische Therapie)",
@@ -20,25 +20,25 @@
         {
           "title": "Psychotherapie",
           "text": "In der Psychotherapie unterstütze ich Sie dabei, Ihre Ressourcen zu aktivieren und neue Lösungswege zu finden. Gemeinsam schauen wir auf Ihre Lebensgeschichte, Ihre Beziehungen und Ihre aktuelle Lebenssituation. Dabei ist es mir wichtig, Sie in Ihrer Einzigartigkeit und Würde zu respektieren und zu begleiten.",
-          "image": "psychotherapie",
+          "image": "/psychotherapie.jpg",
           "imageAlt": "psychotherapie -alt"
         },
         {
           "title": "Paartherapie",
           "text": "In der Familienplanungsberatung begleite ich Sie bei Fragen rund um die Familienplanung, Schwangerschaft, Geburt und Elternschaft. Ich unterstütze Sie dabei, Ihre Bedürfnisse und Wünsche zu klären und eine für Sie passende Entscheidung zu treffen.",
-          "image": "paartherapie",
+          "image": "/paartherapie.jpg",
           "imageAlt": "Paartherapie -alt"
         },
         {
           "title": "Familientherapie",
           "text": "In der Systemischen Familientherapie betrachten wir Ihre Anliegen im Kontext Ihrer Familie und Ihres sozialen Umfelds. Wir schauen auf die Wechselwirkungen und Muster in Ihren Beziehungen und entwickeln gemeinsam neue Perspektiven und Handlungsmöglichkeiten.",
-          "image": "familientherapie",
+          "image": "/familientherapie.jpg",
           "imageAlt": "Familientherapie -alt"
         },
         {
           "title": "Schwangerschaftsberatung",
           "text": "In der Systemischen Familientherapie betrachten wir Ihre Anliegen im Kontext Ihrer Familie und Ihres sozialen Umfelds. Wir schauen auf die Wechselwirkungen und Muster in Ihren Beziehungen und entwickeln gemeinsam neue Perspektiven und Handlungsmöglichkeiten.",
-          "image": "schwangerschaftsberatung",
+          "image": "/schwangerschaftsberatung.jpg",
           "imageAlt": "Schwangerschaftsberatung -alt"
         }
       ]
@@ -78,7 +78,7 @@
         "banner": {
           "headline": "Psychotherapie",
           "sublines": [],
-          "image": "psychotherapie"
+          "image": "/psychotherapie.jpg"
         },
         "categories": [
           {
@@ -106,7 +106,7 @@
         "banner": {
           "headline": "Paartherapie",
           "sublines": [""],
-          "image": "paartherapie"
+          "image": "/paartherapie.jpg"
         },
         "categories": [
           {
@@ -122,7 +122,7 @@
         "banner": {
           "headline": "Familientherapie",
           "sublines": [""],
-          "image": "familientherapie"
+          "image": "/familientherapie.jpg"
         },
         "categories": [
           {
@@ -140,8 +140,8 @@
         "name": "schwangerschaftsberatung",
         "banner": {
           "headline": "Schwangerschaftsberatung",
-          "sublines": ["Evt. noch eine Zeile", "oder zwei"],
-          "image": "schwangerschaftsberatung"
+          "sublines": [""],
+          "image": "/schwangerschaftsberatung.jpg"
         },
         "categories": [
           {
@@ -159,7 +159,7 @@
   "conditions": {
     "welcome": {
       "banner": {
-        "image": "banner",
+        "image": "/rahmenbedingungen.jpg",
         "headline": "Rahmenbedingungen",
         "sublines": []
       },

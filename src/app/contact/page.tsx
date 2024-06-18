@@ -3,8 +3,8 @@ import { PageContainer } from "@/components/page-container/page-container";
 import { TeaserBanner } from "@/components/teaser-banner/teaser-banner";
 import { getDictionary } from "@/dictionaries/dictionaries";
 import styles from "./page.module.css";
-import { getImage } from "@/components/image/image";
 import Image from "next/image";
+import { basePath } from "@/components/util";
 
 export default async function Page() {
   const { contact } = await getDictionary("de");
@@ -16,11 +16,12 @@ export default async function Page() {
       <div className={styles.bannerContainer}>
         <div className={styles.imageContainer}>
           <Image
-            src={getImage["praxis"]}
+            src={`${basePath}/praxis.jpg`}
             alt="Praxis Bild"
             priority
             quality={100}
-            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+            width={400}
+            height={400}
             style={{
               objectFit: "contain",
               position: "relative",
@@ -37,13 +38,28 @@ export default async function Page() {
             <p>Systemische Familientherapie</p>
           </div>
           <div>
-            <div className={styles.adreessLine}>
-              <Image src={getImage["phone"]} alt="phone icon" width={30} />
-              <a href={"tel:+436703542978"}>+43 670 3542978</a>
+            <div>
+              <a href={"tel:+436703542978"} className={styles.adreessLine}>
+                {" "}
+                <Image
+                  src={`${basePath}/phone.png`}
+                  alt="phone icon"
+                  width={20}
+                  height={20}
+                />
+                {"  "} +43 670 3542978
+              </a>
             </div>
-            <div className={styles.adreessLine}>
-              <Image src={getImage["mail"]} alt="phone icon" width={30} />
-              <a href={"mailto:praxis@gertz.at"}>praxis@gertz.at</a>
+            <div>
+              <a href={"mailto:praxis@gertz.at"} className={styles.adreessLine}>
+                <Image
+                  src={`${basePath}/email.png`}
+                  alt="phone icon"
+                  width={20}
+                  height={20}
+                />
+                {"  "} praxis@gertz.at
+              </a>
             </div>
           </div>
         </div>

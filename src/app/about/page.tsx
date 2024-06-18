@@ -1,8 +1,8 @@
-import { getImage } from "@/components/image/image";
 import { getDictionary } from "@/dictionaries/dictionaries";
 import Image from "next/image";
 import styles from "./page.module.css";
 import { BigBox } from "@/components/big-box/big-box";
+import { basePath } from "@/components/util";
 
 export default async function Page() {
   const { about } = await getDictionary("de");
@@ -15,11 +15,12 @@ export default async function Page() {
       <div className={styles.banner}>
         <div className={styles.imageContainer}>
           <Image
-            src={getImage[about.banner.image]}
+            src={`${basePath}/miriam-gertz.jpg`}
             alt="Miriam Gertz"
             priority
             quality={100}
-            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+            width={400}
+            height={800}
             style={{
               objectFit: "contain",
               position: "relative",

@@ -3,8 +3,8 @@ import styles from "./teaser-nav.module.css";
 import { Dictionary } from "../../dictionaries/dictionaries";
 import Link from "next/link";
 import Image from "next/image";
-import { getImage } from "../image/image";
 import { Section } from "../section/section";
+import { basePath } from "../util";
 
 export const TeaserNav: React.FC<{
   offersNav: Dictionary["home"]["offersNav"];
@@ -18,7 +18,7 @@ export const TeaserNav: React.FC<{
             <Link key={item.title} href={`#${item.title}`}>
               <div className={styles.offerItemWrapper}>
                 <Image
-                  src={getImage[item.image]}
+                  src={`${basePath}${item.image}`}
                   alt={item.imageAlt}
                   className={styles.offerNavImage}
                   width={164}
