@@ -17,7 +17,7 @@
 }
 
 .headline {
-  color: var(--headline);
+  color: var(--headline-blue);
   font-size: 24px;
   font-weight: 400;
   text-transform: uppercase;
@@ -31,7 +31,7 @@
   position: absolute;
   width: 64px;
   height: 2px;
-  background: var(--headline);
+  background: var(--headline-blue);
   bottom: 0;
   left: 0;
   right: 0;
@@ -39,6 +39,7 @@
 }
 
 .imageContainer {
+  width: 100%;
   margin: auto;
 
   & img {

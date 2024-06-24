@@ -18,5 +18,8 @@
   padding: 24px;
   text-align: right;
   margin: 20vh 0;
-}
 
+  & h1 {
+    padding-bottom: 8px;
+  }
+}

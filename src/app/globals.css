@@ -9,7 +9,9 @@
   --background: rgba(255, 255, 255, 1);
   --background-grey: rgba(245, 245, 245);
   --header-height: 112px;
-  --headline: #1b78af;
+  --headline-blue: #1b78af;
+  --headline-yellow: #ebc678;
+  --red: #d28782;
 
   --bp-xs: 540px;
   --bp-s: 600px;
@@ -40,10 +42,11 @@ body {
   height: -webkit-fill-available;
   scroll-behavior: smooth;
   line-height: 1.8em;
+  color: rgba(0, 0, 0, 0.9);
 }
 
 main {
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 960px) {
     margin-top: 0;
   }
 
@@ -63,14 +66,14 @@ ul {
 }
 
 h1 {
-  color: var(--headline);
+  color: var(--headline-blue);
   font-size: 36px;
   font-weight: 400;
   text-transform: uppercase;
 }
 
 h2 {
-  color: var(--headline);
+  color: var(--headline-blue);
   font-size: 24px;
   font-weight: 400;
   text-transform: uppercase;
@@ -85,7 +88,7 @@ h2::after {
   position: absolute;
   width: 64px;
   height: 2px;
-  background: var(--headline);
+  background: var(--headline-blue);
   bottom: 0;
   left: 0;
   right: 0;

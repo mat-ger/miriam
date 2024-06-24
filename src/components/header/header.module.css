@@ -5,15 +5,15 @@
 }
 
 .textLogo {
-  font-size: 1.5rem;
   font-weight: 400;
   font-size: 17px;
   text-transform: uppercase;
   letter-spacing: 3.4px;
+  color: var(--headline-blue);
 }
 
 /* navigation desktop  */
-@media screen and (min-width: 801px) {
+@media screen and (min-width: 961px) {
   .header {
     display: flex;
     justify-content: space-between;
@@ -50,7 +50,7 @@
   .spaces {
     padding: 0 16px;
 
-    @media screen and (min-width: 800px) {
+    @media screen and (min-width: 961px) {
       padding: 0 16px;
     }
 
@@ -61,7 +61,7 @@
 }
 
 /* navigation mobile */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 960px) {
   .navMobile {
     background-color: white;
     height: 65px;

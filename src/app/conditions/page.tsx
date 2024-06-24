@@ -3,6 +3,7 @@ import { PageContainer } from "@/components/page-container/page-container";
 import { TeaserBanner } from "@/components/teaser-banner/teaser-banner";
 import { getDictionary } from "@/dictionaries/dictionaries";
 import styles from "./page.module.css";
+import { RemoteMdxComponent } from "@/components/markdown-renderer/markdown-renderer";
 
 export default async function Page() {
   const { conditions } = await getDictionary("de");
@@ -18,7 +19,7 @@ export default async function Page() {
             {category.text && (
               <div className={styles.container}>
                 {category.text.map((text) => (
-                  <p key={text}>{text}</p>
+                  <RemoteMdxComponent textKey={text} key={text} />
                 ))}
               </div>
             )}

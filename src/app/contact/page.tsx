@@ -16,7 +16,7 @@ export default async function Page() {
       <div className={styles.bannerContainer}>
         <div className={styles.imageContainer}>
           <Image
-            src={`${basePath}/praxis.jpg`}
+            src={`${basePath}/praxis_1024.jpg`}
             alt="Praxis Bild"
             priority
             quality={100}
@@ -35,7 +35,7 @@ export default async function Page() {
             <h2>Miriam Gertz</h2>
             <p>Psychotherapeutin</p>
             <p>in Ausbildung unter Supervision</p>
-            <p>Systemische Familientherapie</p>
+            <p>Systemische Therapie</p>
           </div>
           <div>
             <div>

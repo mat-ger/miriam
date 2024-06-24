@@ -3,6 +3,7 @@ import Image from "next/image";
 import styles from "./page.module.css";
 import { BigBox } from "@/components/big-box/big-box";
 import { basePath } from "@/components/util";
+import { RemoteMdxComponent } from "@/components/markdown-renderer/markdown-renderer";
 
 export default async function Page() {
   const { about } = await getDictionary("de");
@@ -15,15 +16,13 @@ export default async function Page() {
       <div className={styles.banner}>
         <div className={styles.imageContainer}>
           <Image
-            src={`${basePath}/miriam-gertz.jpg`}
+            src={`${basePath}/miriam-gertz_1024.jpg`}
             alt="Miriam Gertz"
             priority
-            quality={100}
-            width={400}
-            height={800}
+            width={0}
+            height={0}
             style={{
               objectFit: "contain",
-              position: "relative",
               width: "100%",
               height: "auto",
             }}
@@ -31,7 +30,7 @@ export default async function Page() {
         </div>
         <div className={styles.textSide}>
           {about.banner.sublines.map((text) => (
-            <p key={text}>{text}</p>
+            <RemoteMdxComponent textKey={text} key={text} />
           ))}
         </div>
       </div>

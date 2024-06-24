@@ -1,0 +1,10 @@
+.blockquote {
+  text-align: unset;
+}
+
+.container {
+  & p {
+    text-align: justify;
+    hyphens: auto;
+  }
+}

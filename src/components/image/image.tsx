@@ -4,15 +4,17 @@ import { basePath } from "../util";
 
 export const ImageBg: React.FC<{
   src: string;
-}> = ({ src }) => {
+  alt: string;
+}> = ({ src, alt }) => {
   return (
-    <Image
-      src={`${basePath}${src}`}
-      alt={`${src}`}
-      fill
-      className={styles.parallaxImage}
-      priority
-      quality={100}
-    />
+    <div className={styles.container}>
+      <Image
+        src={`${basePath}${src}`}
+        alt={alt}
+        layout="fill"
+        objectFit="cover"
+        objectPosition="center center"
+      />
+    </div>
   );
 };
