@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "static": "next build && touch ./out/.nojekyll && echo 'www.gertz.at.' > ./out/CNAME",
+    "static": "next build && touch ./out/.nojekyll && echo 'www.gertz.at' > ./out/CNAME",
     "deploy": "gh-pages -d out -t true"
   },
   "dependencies": {
