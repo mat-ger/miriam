@@ -67,9 +67,14 @@ ul {
 
 h1 {
   color: var(--headline-blue);
-  font-size: 36px;
+  font-size: 34px;
   font-weight: 400;
   text-transform: uppercase;
+  word-break: break-all;
+
+  @media screen and (max-width: 540px) {
+    font-size: 26px;
+  }
 }
 
 h2 {
@@ -81,6 +86,11 @@ h2 {
   position: relative;
   padding-bottom: 24px;
   margin-bottom: 24px;
+  word-break: break-all;
+
+  @media screen and (max-width: 540px) {
+    font-size: 20px;
+  }
 }
 
 h2::after {

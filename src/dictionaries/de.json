@@ -163,13 +163,6 @@
       {
         "headline": "Absageregelung",
         "items": [""],
-        "text": [
-          "Vereinbarte Termine sind verbindlich. Sollten Sie einen Termin nicht einhalten können, sagen Sie diesen bitte bis spätestens 48 Stunden im Voraus ab. Ansonsten wird der Termin zum vollen Tarif in Rechnung gestellt.  "
-        ]
-      },
-      {
-        "headline": "Absageregelung",
-        "items": [""],
         "text": ["absageregelung"]
       },
       {
@@ -341,7 +334,7 @@
           {
             "title": "Universität Wien ",
             "subtitle": "laufende Tätigkeit als Lehrende im Fach Qualitative Forschungsmethoden in der Psychologie.",
-            "link": ""
+            "link": "https://psychologie.univie.ac.at/ueber-uns/mitarbeiterinnen/details/user/gertzm35/inum/1109/backpid/9734/"
           },
           {
             "title": "Universitätsklinikum Tulln",

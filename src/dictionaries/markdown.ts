@@ -113,7 +113,7 @@ export const markdown = {
        
     \b   
     #### Was bedeutet „in Ausbildung unter Supervision“?
-    Nach meinem Psychologiestudium habe ich die sechsjährige Psychotherapie-ausbildung begonnen, bei der ich mich nun im letzten Abschnitt befinde. Ich bin damit dazu berechtigt, selbstständig psychotherapeutisch zu arbeiten. Zur Gewähleistung der Qualität meiner Arbeit reflektiere ich mein therapeutisches Vorgehen regelmäßig unter Wahrung der Verschwiegenheit in Supervisionssitzungen mit erfahrenen Lehrtherapeut:innen.  
+    Nach meinem Psychologiestudium habe ich die sechsjährige Psychotherapieausbildung begonnen, bei der ich mich nun im letzten Abschnitt befinde. Ich bin damit dazu berechtigt, selbstständig psychotherapeutisch zu arbeiten. Zur Gewähleistung der Qualität meiner Arbeit reflektiere ich mein therapeutisches Vorgehen regelmäßig unter Wahrung der Verschwiegenheit in Supervisionssitzungen mit erfahrenen Lehrtherapeut:innen.  
 `
 }
 

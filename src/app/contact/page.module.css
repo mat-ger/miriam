@@ -55,6 +55,7 @@
 .textAdress {
   margin-top: 32px;
   margin-bottom: 64px;
+  padding: 0 16px;
 }
 
 .adressContainer {
