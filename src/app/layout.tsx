@@ -11,7 +11,8 @@ const inter = Open_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Miriam Gertz - Psychotherapeutin, Wien",
+  title:
+    "Miriam Gertz - Psychotherapeutin in Ausbildung unter Supervision, Wien",
   description: "Systemische Psychotherapie in 1170 und 1130 Wien",
   robots: "index, follow",
   authors: { name: "Miriam Gertz" },
@@ -21,7 +22,7 @@ export const metadata: Metadata = {
     "Wien",
     "1170",
     "1130",
-    "Psychotherapeutin",
+    "Psychotherapeutin in Ausbildung unter Supervision",
     "Miriam Gertz",
     "Familientherapie",
     "Schwangerschaftsberatung",
@@ -31,7 +32,8 @@ export const metadata: Metadata = {
   appleWebApp: true,
   applicationName: "Miriam Gertz",
   openGraph: {
-    title: "Miriam Gertz - Psychotherapeutin, Wien",
+    title:
+      "Miriam Gertz - Psychotherapeutin in Ausbildung unter Supervision, Wien",
     description: "Systemische Psychotherapie in 1170 und 1130 Wien",
     type: "website",
     locale: "de_AT",
@@ -41,7 +43,7 @@ export const metadata: Metadata = {
         url: "https://www.gertz.at/miriam-gertz_1024.jpg",
         width: 1024,
         height: 682,
-        alt: "Miriam Gertz - Psychotherapeutin, Wien",
+        alt: "Miriam Gertz - Psychotherapeutin in Ausbildung unter Supervision, Wien",
       },
     ],
   },
@@ -49,8 +51,8 @@ export const metadata: Metadata = {
 
 const structuredData = {
   "@context": "https://schema.org",
-  "@type": "ProfessionalService",
-  name: "Miriam Gertz - Psychotherapeutin, Wien",
+  "@type": "Physician",
+  name: "Miriam Gertz",
   description: "Systemische Psychotherapie in 1170 und 1130 Wien",
   url: "https://www.gertz.at",
   image: "https://www.gertz.at/miriam-gertz_1024.jpg",
@@ -62,6 +64,8 @@ const structuredData = {
     postalCode: "1170",
     addressCountry: "AT",
   },
+  medicalSpecialty: "Psychotherapy",
+  areaServed: "Vienna",
 };
 
 export default function RootLayout({
@@ -71,11 +75,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <link rel="icon" href="/favicon.ico" />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
-      />
+      <head>
+        <link rel="icon" href="/favicon.ico" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+        />
+      </head>
       <body className={inter.className}>
         <Header />
 

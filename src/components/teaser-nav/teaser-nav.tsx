@@ -11,7 +11,7 @@ export const TeaserNav: React.FC<{
 }> = ({ offersNav }) => {
   return (
     <Section>
-      <div className={`${styles.bigBox} ${styles.greyBackground}`}>
+      <div className={`${styles.bigBox} ${styles.greyBackground}`} id="offer">
         <h2>{offersNav.headline}</h2>
         <ul className={`${styles.offerNav} ${styles.bigBoxContent}`}>
           {offersNav.items.map((item) => (

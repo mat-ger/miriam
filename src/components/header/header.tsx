@@ -17,7 +17,7 @@ export const Header = () => {
               <Link href="/">Miriam Gertz, MSc</Link>
             </li>
             <li>
-              <Link href="/">Angebote</Link>
+              <Link href="/#offer">Angebote</Link>
             </li>
             <li>
               <Link href="/conditions">Rahmenbedingungen</Link>
