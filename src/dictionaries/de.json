@@ -12,7 +12,7 @@
         ]
       },
       "title": "Herzlich Willkommen",
-      "text": "Als Psychotherapeutin in Ausbildung unter Supervision in Wien begleite ich Erwachsene, Jugendliche, Paare und Familien in Krisen, herausfordernden Übergängen und Entwicklungsprozessen."
+      "text": "Als Psychotherapeutin in Ausbildung unter Supervision in Wien begleite ich Erwachsene, Jugendliche, Paare, polyamore Beziehungskonstellationen und Familien in Krisen, herausfordernden Übergängen und Entwicklungsprozessen."
     },
     "offersNav": {
       "headline": "Mein Angebot",
@@ -21,25 +21,25 @@
           "title": "Psychotherapie",
           "text": "In der Psychotherapie unterstütze ich Sie dabei, Ihre Ressourcen zu aktivieren und neue Lösungswege zu finden. Gemeinsam schauen wir auf Ihre Lebensgeschichte, Ihre Beziehungen und Ihre aktuelle Lebenssituation. Dabei ist es mir wichtig, Sie in Ihrer Einzigartigkeit und Würde zu respektieren und zu begleiten.",
           "image": "/psychotherapie_320.jpg",
-          "imageAlt": "psychotherapie -alt"
+          "imageAlt": "psychotherapie Symbolbild"
         },
         {
-          "title": "Paartherapie",
+          "title": "Beziehungstherapie",
           "text": "In der Familienplanungsberatung begleite ich Sie bei Fragen rund um die Familienplanung, Schwangerschaft, Geburt und Elternschaft. Ich unterstütze Sie dabei, Ihre Bedürfnisse und Wünsche zu klären und eine für Sie passende Entscheidung zu treffen.",
           "image": "/paartherapie_320.jpg",
-          "imageAlt": "Paartherapie -alt"
+          "imageAlt": "Beziehungstherapie Symbolbild"
         },
         {
           "title": "Familientherapie",
           "text": "In der Systemischen Familientherapie betrachten wir Ihre Anliegen im Kontext Ihrer Familie und Ihres sozialen Umfelds. Wir schauen auf die Wechselwirkungen und Muster in Ihren Beziehungen und entwickeln gemeinsam neue Perspektiven und Handlungsmöglichkeiten.",
           "image": "/familientherapie_320.jpg",
-          "imageAlt": "Familientherapie -alt"
+          "imageAlt": "Familientherapie Symbolbild"
         },
         {
           "title": "Schwangerschaftsberatung",
           "text": "In der Systemischen Familientherapie betrachten wir Ihre Anliegen im Kontext Ihrer Familie und Ihres sozialen Umfelds. Wir schauen auf die Wechselwirkungen und Muster in Ihren Beziehungen und entwickeln gemeinsam neue Perspektiven und Handlungsmöglichkeiten.",
           "image": "/schwangerschaftsberatung_320.jpg",
-          "imageAlt": "Schwangerschaftsberatung -alt"
+          "imageAlt": "Schwangerschaftsberatung Symbolbild"
         }
       ]
     },
@@ -96,15 +96,15 @@
         ]
       },
       {
-        "name": "paartherapie",
+        "name": "beziehungstherapie",
         "banner": {
-          "headline": "Paartherapie",
+          "headline": "Beziehungstherapie",
           "sublines": [""],
           "image": "/paartherapie_1024.jpg"
         },
         "categories": [
           {
-            "headline": "Systemische Paartherapie",
+            "headline": "Systemische Paar- und Beziehungstherapie",
             "text": ["systemsichePaartherapie"]
           }
         ]
@@ -156,7 +156,7 @@
         "text": ["verschwiegeneit"]
       },
       {
-        "headline": "Erstgespräch",
+        "headline": "Erstgespräch und Setting",
         "items": [""],
         "text": ["erstgespräch"]
       },
@@ -331,6 +331,11 @@
       {
         "headline": "PRAXISERFAHRUNG & TÄTIGKEITSBEREICHE",
         "items": [
+          {
+            "title": "Hebammenzentrum Wien",
+            "subtitle": "laufende Tätigkeit als psychologische Beraterin",
+            "link": "https://www.hebammenzentrum.at/verein/team"
+          },
           {
             "title": "Universität Wien ",
             "subtitle": "laufende Tätigkeit als Lehrende im Fach Qualitative Forschungsmethoden in der Psychologie.",

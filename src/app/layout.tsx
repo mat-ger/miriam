@@ -28,6 +28,8 @@ export const metadata: Metadata = {
     "Schwangerschaftsberatung",
     "Systemische Psychotherapie",
     "Systemische Paartherapie",
+    "Paartherapie",
+    "Beziehungstherapie",
   ],
   appleWebApp: true,
   applicationName: "Miriam Gertz",
