@@ -100,7 +100,7 @@ export const markdown = {
     Verschwiegenheit ist eine unverzichtbare Grundlage für die Psychotherapie und in §15 des Psychotherapiegesetzes als Berufspflicht festgehalten. Ihre persönlichen Themen sind bei mir sicher aufgehoben.
     `,
   erstgespräch: `
-    Nachdem Sie mich per Mail oder Telefon kontaktiert haben, vereinbaren wir einen Termin für ein Erstgespräch – entweder in meinem Raum im Therapiezentrum Rosensteingasse in 1170 Wien oder in den Räumen der Therapieambulanz AST in 1130 Wien.\
+    Nachdem Sie mich per Mail oder Telefon kontaktiert haben, vereinbaren wir einen Termin für ein Erstgespräch.\
     Das Erstgespräch dient dem gegenseitigen Kennenlernen und der Klärung des Rahmens. Sie bekommen einen Einblick in meine Arbeitsweise und können alle Fragen stellen, die Sie zu Psychotherapie haben. Wir sprechen über Ihr Anliegen sowie ihre Erwartungen und Wünsche an die Psychotherapie und ich werde Ihnen rückmelden, ob sich Ihre Vorstellungen mit dem treffen, was ich anbieten kann. Zudem klären wir das mögliche psychotherapeutische Setting (Einzel-, Paar- oder Familientherapie, Häufigkeit der Sitzungen, Höhe des Honorars, Bezahlung des Honorars, Absageregelung).\
     Nach dem Erstgespräch können Sie in Ruhe entscheiden, ob Sie an einer Zusammenarbeit mit mir interessiert sind.
        

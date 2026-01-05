@@ -66,8 +66,8 @@ export default async function Page() {
       </div>
       <div className={styles.textAdress}>
         <h2>Praxis</h2>
-        <p>Rosensteingasse 82/2, 1170 Wien (Therapiezentrum Rosensteingasse)</p>
-        <p>Trauttmansdorffgasse 3a, 1130 Wien (Therapieambulanz AST)</p>
+        <p>Neue Adresse ab Februar 2026:</p>
+        <p>Paletzgasse 32/4, 1160 Wien (Gemeinschaftspraxis)</p>
       </div>
 
       <BigBox>

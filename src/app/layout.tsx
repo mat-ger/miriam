@@ -61,7 +61,7 @@ const structuredData = {
   telephone: "+43 670 3542978",
   address: {
     "@type": "PostalAddress",
-    streetAddress: "Rosensteingasse 82/2",
+    streetAddress: "Paletzgasse 32/4",
     addressLocality: "Wien",
     postalCode: "1170",
     addressCountry: "AT",
