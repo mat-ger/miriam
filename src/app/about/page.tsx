@@ -41,7 +41,7 @@ export default async function Page() {
             <ul className={styles.list}>
               {category.items &&
                 category.items.map((item) => (
-                  <li key={item.title}>
+                  <li key={item.title + item.subtitle}>
                     <span>{item.title}</span> {item.subtitle}{" "}
                     {item.link && <a href={item.link}>(Link)</a>}
                   </li>

@@ -11,9 +11,9 @@ export const ImageBg: React.FC<{
       <Image
         src={`${basePath}${src}`}
         alt={alt}
-        layout="fill"
-        objectFit="cover"
-        objectPosition="center center"
+        fill
+        sizes="100vw"
+        style={{ objectFit: "cover", objectPosition: "center" }}
       />
     </div>
   );

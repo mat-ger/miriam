@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Fragment } from "react";
 import { Dictionary } from "../../dictionaries/dictionaries";
 import styles from "./offer.module.css";
 import Image from "next/image";
@@ -12,8 +12,8 @@ export const Offers: React.FC<{ offers: Dictionary["home"]["offers"] }> = ({
   offers,
 }) => {
   return offers.map((offer) => (
-    <>
-      <Section key={offer.name} id={offer.banner.headline}>
+    <Fragment key={offer.name}>
+      <Section id={offer.banner.headline}>
         <ImageBg
           src={`${basePath}${offer.banner.image}`}
           alt="psychotherapie Bild"
@@ -39,6 +39,6 @@ export const Offers: React.FC<{ offers: Dictionary["home"]["offers"] }> = ({
           </BigBox>
         </div>
       </Section>
-    </>
+    </Fragment>
   ));
 };
