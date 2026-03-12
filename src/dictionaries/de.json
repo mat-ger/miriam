@@ -189,27 +189,12 @@
             "items": [
               {
                 "label": "Einheit à 90 Min.",
-                "value": "€ 150,-",
+                "value": "€ 160,- bis € 220,-",
                 "type": ""
-              }
-            ]
-          },
-          {
-            "headline": "Schwangerschafts(konflikt)beratung",
-            "items": [
+              },
               {
-                "label": "Einheit à 50 Min.",
-                "value": "€ 75,-",
-                "type": ""
-              }
-            ]
-          },
-          {
-            "headline": "Sozialtarife",
-            "items": [
-              {
-                "label": "Ich habe ein Kontingent an Therapieplätzen zu Sozialtarifen. Wenn es für Sie aus Kostengründen schwierig ist, eine Therapie in Anspruch zu nehmen, zögern Sie nicht, mich danach zu fragen.",
-                "value": "",
+                "label": "",
+                "value": "Selbsteinschätzung",
                 "type": ""
               }
             ]

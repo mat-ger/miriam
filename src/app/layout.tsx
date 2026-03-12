@@ -13,15 +13,15 @@ const inter = Open_Sans({
 export const metadata: Metadata = {
   title:
     "Miriam Gertz - Psychotherapeutin in Ausbildung unter Supervision, Wien",
-  description: "Systemische Psychotherapie in 1170 und 1130 Wien",
+  description: "Systemische Psychotherapie in 1160 Wien",
   robots: "index, follow",
   authors: { name: "Miriam Gertz" },
   keywords: [
     "Psychotherapie",
     "Systemische Therapie",
     "Wien",
-    "1170",
-    "1130",
+    "1170 Wien",
+    "1160 Wien",
     "Psychotherapeutin in Ausbildung unter Supervision",
     "Miriam Gertz",
     "Familientherapie",
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
   openGraph: {
     title:
       "Miriam Gertz - Psychotherapeutin in Ausbildung unter Supervision, Wien",
-    description: "Systemische Psychotherapie in 1170 und 1130 Wien",
+    description: "Systemische Psychotherapie in 1160 Wien",
     type: "website",
     locale: "de_AT",
     url: "https://www.gertz.at",
@@ -55,7 +55,7 @@ const structuredData = {
   "@context": "https://schema.org",
   "@type": "Physician",
   name: "Miriam Gertz",
-  description: "Systemische Psychotherapie in 1170 und 1130 Wien",
+  description: "Systemische Psychotherapie in 1160 Wien",
   url: "https://www.gertz.at",
   image: "https://www.gertz.at/miriam-gertz_1024.jpg",
   telephone: "+43 670 3542978",
@@ -63,7 +63,7 @@ const structuredData = {
     "@type": "PostalAddress",
     streetAddress: "Paletzgasse 32/4",
     addressLocality: "Wien",
-    postalCode: "1170",
+    postalCode: "1160",
     addressCountry: "AT",
   },
   medicalSpecialty: "Psychotherapy",

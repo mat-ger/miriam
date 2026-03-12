@@ -67,14 +67,20 @@ export default async function Page() {
       <div className={styles.textAdress}>
         <h2>Praxis</h2>
         <p>Neue Adresse ab Februar 2026:</p>
-        <p>Paletzgasse 32/4, 1160 Wien (Gemeinschaftspraxis)</p>
+        <p>
+          Paletzgasse 32/4, 1160 Wien (
+          <a href="http://therapiepraxishernals.at/" target="_blank">
+            Therapie Praxis
+          </a>
+          )
+        </p>
       </div>
 
       <BigBox>
         <h2>Impressum</h2>
         <h4>Für den Inhalt verantwortlich:</h4>
         <p>Miriam Gertz, MSc</p>
-        <p>Geblergasse 70, 1170 Wien, Österreich</p>
+        <p>Paletzgasse 32/4, 1160 Wien, Österreich</p>
         <p>Tel.: +436703542978</p>
         <p>E-Mail: praxis@gertz.at</p>
         <p>

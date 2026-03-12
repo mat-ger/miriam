@@ -125,7 +125,7 @@ export const markdown = {
   über: `
     Mein Name ist Miriam Gertz   
     Ich bin **Psychotherapeutin in Ausbildung unter Supervision, Psychologin** (MSc) und **Familienplanungsberaterin** (ÖGF).   
-    In 1170 Wien und 1130 Wien biete ich systemische Psychotherapie und Beratung an. Ich bin in Süddeutschland geboren, in Norddeutschland in Ostseenähe aufgewachsen, lebe seit 2011 in Wien West und bin Mutter zweier Kinder.    
+    In 1160 Wien biete ich systemische Psychotherapie und Beratung an. Ich bin in Süddeutschland geboren, in Norddeutschland in Ostseenähe aufgewachsen, lebe seit 2011 in Wien West und bin Mutter zweier Kinder.    
        
     \b   
     #### Was bedeutet „in Ausbildung unter Supervision“?
