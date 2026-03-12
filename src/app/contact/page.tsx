@@ -70,7 +70,7 @@ export default async function Page() {
         <p>
           Paletzgasse 32/4, 1160 Wien (
           <a href="http://therapiepraxishernals.at/" target="_blank">
-            Therapie Praxis
+            Therapie Praxis Hernals
           </a>
           )
         </p>
