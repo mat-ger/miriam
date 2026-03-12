@@ -128,9 +128,6 @@ export default async function Page() {
         <p>Die Fotos auf dieser Webseite sind urheberrechtlich geschützt. </p>
         <p>Die Bilderrechte liegen bei:</p>
         <p>Porträtfoto: Corinna Radakovits // showyourselfphoto.com </p>
-        <p>
-          Raumfoto: Therapiezentrum Rosensteingasse // tz-rosensteingasse.at
-        </p>
         <p>Symbolfotos: iStock</p>
         <p>Alle Texte sind urheberrechtlich geschützt.</p>
         <p>
