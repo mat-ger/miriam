@@ -115,7 +115,51 @@ export const markdown = {
     Auch wenn Sie als Student:in aus einem EU-Land in Österreich leben und z. B. in Deutschland versichert sind, ist eine Kostenrückerstattung häufig möglich. Ob die Kosten vollständig oder teilweise übernommen werden, klären Sie bitte direkt mit Ihrer Krankenkasse. 
     `,
   kostenzuschuss: `
+       
+    \b   
+    **Kostenzuschuss durch österreichische Krankenkassen**
 
+    Bei Vorliegen einer krankheitswertigen Diagnose ist ein Kostenzuschuss durch die österreichischen Krankenkassen möglich. Sie begleichen mein Honorar zunächst selbst und können anschließend eine Teilrefundierung bei Ihrer Krankenkasse beantragen. Dabei unterstütze ich Sie gerne. Falls bereits eine Diagnose (z. B. von einer Fachärztin oder Ihrem Hausarzt) vorliegt, kann diese eventuell verwendet werden. Andernfalls besprechen wir gemeinsam, ob eine krankheitswertige Diagnose zur Beschreibung Ihrer Symptome sinnvoll und passend ist.
+
+    Wenn Sie keine Rückerstattung beantragen möchten, ist keine Diagnose erforderlich. Kosten für Paartherapien werden von den Krankenkassen nicht übernommen.
+       
+    \b   
+    **Ablauf der Teilrefundierung:**
+
+    1. Nach dem Erstgespräch und vor der zweiten Sitzung holen Sie bei Ihrer Hausärztin bzw. Ihrem Hausarzt eine **Zuweisung** zur psychotherapeutischen Behandlung ein. Dabei wird auch abgeklärt, ob körperliche Ursachen für Ihre Beschwerden vorliegen könnten.
+    2. Das **Honorar** ist nach jeder Sitzung vollständig von Ihnen zu begleichen. Die Rechnung erhalten Sie per E-Mail.
+    3. Sobald Sie einreichen wollen, schicken sie die bisherigen Rechnungen gemeinsam mit der ärztlichen Zuweisung an Ihre Krankenkasse. Die ersten zehn Therapieeinheiten sind in der Regel bewilligungsfrei. Den Kostenzuschuss bekommen Sie von Ihrer Krankenkasse.
+    4. **Ab der elften Einheit** ist zusätzlich ein **Antrag auf Kostenzuschuss** erforderlich, den ich für Sie ausfülle. Die Inhalte besprechen wir gemeinsam.
+
+    Achtung! Der Antrag muss vor der elften Therapieeinheit bei der Krankenkasse eingelangt sein. Eine nachträgliche Bewilligung ist nicht möglich. Jede Krankenkasse verwendet dafür ein eigenes Formular. Eine Übersicht finden Sie hier: [https://www.psychotherapie-wlp.at/mitgliederservice/krankenkassen/formular-center](https://www.psychotherapie-wlp.at/mitgliederservice/krankenkassen/formular-center)
+
+    5. Bitte behalten Sie die Anzahl Ihrer bewilligten Therapieeinheiten im Blick und erinnern Sie mich bei Bedarf rechtzeitig an einen **Verlängerungsantrag**.
+    6. Rechnungen können bis zu 42 Monate nach der Behandlung bei Ihrer Krankenkasse eingereicht werden.
+       
+    \b   
+    **Private Krankenversicherungen**
+
+    Private Krankenversicherungen übernehmen oder bezuschussen die Kosten einer Psychotherapie häufig nach entsprechender Antragstellung. Bitte informieren Sie sich rechtzeitig bei Ihrer Versicherung über die Voraussetzungen und den Umfang der Kostenübernahme.
+       
+    \b   
+    **Höhe der Kostenzuschüsse der Krankenkassen** (Stand: August 2026)
+
+    Bitte überprüfen Sie die Zahlen selbst auf Aktualität.
+
+    <table>
+    <thead>
+      <tr>
+        <th>Versicherungsträger</th>
+        <th>Kostenzuschuss für Psychotherapie </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>ÖGK - [Alle Angaben](https://www.oegk.at/cdscontent/?contentid=10007.870222&portal=oegkportal)</td><td> EUR 33,70 </td></tr>
+      <tr><td>BVAEB - [Alle Angaben](https://www.bvaeb.at/cdscontent/?contentid=10007.840357) </td><td> EUR 50,20 </td></tr>
+      <tr><td>SVS - [Alle Angaben](https://www.svs.at/cdscontent/?contentid=10007.816743&portal=svsportal) </td><td> EUR 50,- </td></tr>
+      <tr><td>KFA - [Alle Angaben](https://www.kfawien.at/cdscontent/content_print.xhtml?contentid=10007.812228&viewmode=content&print=true) </td><td> EUR 39,- </td></tr>
+    </tbody>
+    </table>
   `,
   dauer: `
     Die Häufigkeit der Sitzungen und die Dauer der Psychotherapie werden individuell vereinbart. Im Rahmen der ersten Gespräche treffen wir eine Vereinbarung, die bei Bedarf jederzeit angepasst werden kann.   

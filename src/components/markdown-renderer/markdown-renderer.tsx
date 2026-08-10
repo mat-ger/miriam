@@ -6,56 +6,67 @@ import styles from "./markdown-renderer.module.css";
 
 export type TextKey = keyof typeof markdown;
 
-export const RemoteMdxComponent: React.FC<{ textKey: string }> = ({
-  textKey,
-}) => {
+const normalizeTextKey = (textKey: string): TextKey => {
+  return textKey.trim().replace(/^#sym:/, "") as TextKey;
+};
+
+export const RemoteMdxComponent: React.FC<{
+  textKey: string;
+  tableClassName?: string;
+}> = ({ textKey, tableClassName }) => {
+  const normalizedTextKey = normalizeTextKey(textKey);
+
   return (
-    <MDXRemote
-      source={markdown[textKey as TextKey]}
-      components={{
-        em: (props) => (
-          <em
-            {...props}
-            style={{
-              padding: "0 12px",
-              WebkitBoxDecorationBreak: "clone",
-            }}
-          />
-        ),
-        blockquote: (props) => (
-          <blockquote
-            style={{
-              fontWeight: "bold",
-              color: "var(--headline-blue)",
-              textAlign: "center",
-              display: "flex",
-              justifyContent: "center",
-            }}
-            {...props}
-          />
-        ),
-        p: (props) => (
-          <p {...props} style={{ textAlign: "justify", hyphens: "auto" }} />
-        ),
-        ul: (props) => (
-          <ul
-            style={{
-              listStyle: "inside",
-              padding: "0 64px",
-            }}
-            {...props}
-          />
-        ),
-        h3: (props) => (
-          <h3
-            style={{
-              color: "var(--headline-blue)",
-              fontSize: "1.5rem",
-            }}
-            {...props}
-          />
-        ),
-      }}
-    />
+    <div className={styles.container}>
+      <MDXRemote
+        source={markdown[normalizedTextKey] ?? ""}
+        components={
+          {
+            em: (props) => (
+              <em
+                {...props}
+                style={{
+                  padding: "0 12px",
+                  WebkitBoxDecorationBreak: "clone",
+                }}
+              />
+            ),
+            blockquote: (props) => (
+              <blockquote
+                style={{
+                  fontWeight: "bold",
+                  color: "var(--headline-blue)",
+                  textAlign: "center",
+                  display: "flex",
+                  justifyContent: "center",
+                }}
+                {...props}
+              />
+            ),
+            p: (props) => (
+              <p {...props} style={{ textAlign: "justify", hyphens: "auto" }} />
+            ),
+            ul: (props) => (
+              <ul
+                style={{
+                  listStyle: "inside",
+                  padding: "0 64px",
+                }}
+                {...props}
+              />
+            ),
+            h3: (props) => <h3 {...props} className={styles.h3} />,
+            table: (props) => (
+              <table
+                {...props}
+                className={[styles.table, tableClassName, props.className]
+                  .filter(Boolean)
+                  .join(" ")}
+              />
+            ),
+          } as MDXComponents
+        }
+      />
+    </div>
   );
 };

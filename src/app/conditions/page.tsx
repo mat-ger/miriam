@@ -19,7 +19,11 @@ export default async function Page() {
             {category.text && (
               <div className={styles.container}>
                 {category.text.map((text) => (
-                  <RemoteMdxComponent textKey={text} key={text} />
+                  <RemoteMdxComponent
+                    textKey={text}
+                    key={text}
+                    tableClassName={styles.table}
+                  />
                 ))}
               </div>
             )}
@@ -61,7 +65,11 @@ export default async function Page() {
             {category.textBottom && (
               <div className={styles.container}>
                 {category.textBottom.map((text) => (
-                  <RemoteMdxComponent textKey={text} key={text} />
+                  <RemoteMdxComponent
+                    textKey={text}
+                    key={text}
+                    tableClassName={styles.table}
+                  />
                 ))}
               </div>
             )}
