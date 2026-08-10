@@ -154,10 +154,10 @@ export const markdown = {
       </tr>
     </thead>
     <tbody>
-      <tr><td>ÖGK - [Alle Angaben](https://www.oegk.at/cdscontent/?contentid=10007.870222&portal=oegkportal)</td><td> EUR 33,70 </td></tr>
-      <tr><td>BVAEB - [Alle Angaben](https://www.bvaeb.at/cdscontent/?contentid=10007.840357) </td><td> EUR 50,20 </td></tr>
-      <tr><td>SVS - [Alle Angaben](https://www.svs.at/cdscontent/?contentid=10007.816743&portal=svsportal) </td><td> EUR 50,- </td></tr>
-      <tr><td>KFA - [Alle Angaben](https://www.kfawien.at/cdscontent/content_print.xhtml?contentid=10007.812228&viewmode=content&print=true) </td><td> EUR 39,- </td></tr>
+      <tr><td>ÖGK - [Alle Angaben](https://www.oegk.at/cdscontent/?contentid=10007.870222&portal=oegkportal)</td><td> € 33,70,-</td></tr>
+      <tr><td>BVAEB - [Alle Angaben](https://www.bvaeb.at/cdscontent/?contentid=10007.840357) </td><td> € 50,20,-</td></tr>
+      <tr><td>SVS - [Alle Angaben](https://www.svs.at/cdscontent/?contentid=10007.816743&portal=svsportal) </td><td> € 50,-</td></tr>
+      <tr><td>KFA - [Alle Angaben](https://www.kfawien.at/cdscontent/content_print.xhtml?contentid=10007.812228&viewmode=content&print=true) </td><td> € 39,-</td></tr>
     </tbody>
     </table>
   `,
