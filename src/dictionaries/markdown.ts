@@ -16,8 +16,7 @@ export const markdown = {
     
     \b 
 
-    Methodisch arbeite ich hauptsächlich **im Gespräch**. Ergänzend biete ich - je nachdem was zu Ihnen und Ihrem Anliegen passt – symbolisierende, visualisierende und externalisierende Praktiken (Aufstellungen mit dem Systembrett, Timeline, Zeichnen, Malen etc.), hypnosystemische Techniken (ressourcenaktivierende Arbeit mit Trance-Zuständen, Imaginationsübungen) sowie achtsamkeitsorientierte Methoden an. 
-    Dabei sind eine konstruktivistische Grundhaltung und der narrative Ansatz besonders prägend für mein therapeutisches Angebot.
+    Methodisch arbeite ich hauptsächlich **im Gespräch**. Ergänzend biete ich - je nachdem was zu Ihnen und Ihrem Anliegen passt – symbolisierende, visualisierende und externalisierende Praktiken (Aufstellungen mit dem Systembrett, Timeline-Arbeiten, Zeichnen etc.) sowie ressourcenaktivierende und achtsamkeitsorientierte Imaginationsübungen an. Dabei sind eine konstruktivistische Grundhaltung und der narrative Ansatz besonders prägend für mein therapeutisches Angebot.
     `,
 
   konstruktivismus: `
@@ -111,8 +110,13 @@ export const markdown = {
     Vereinbarte Termine sind verbindlich. Sollten Sie einen Termin nicht einhalten können, sagen Sie diesen so früh wie möglich und bitte bis spätestens 48 Stunden im Voraus ab. Ansonsten wird der Termin zum vollen Tarif in Rechnung gestellt.  
     `,
   kosten: `
-    Eine Teilrefundierung der Kosten durch die Krankenkassen ist derzeit nicht möglich. Da ich Psychotherapeutin in Ausbildung unter Supervision bin, sind meine Honorare jedoch niedriger als diejenigen von eingetragenen Psychotherapeut:innen. 
+    Sozialtarife sind bei freien Plätzen auf Anfrage möglich. 
+    Ich bin eingetragene Wahltherapeutin für alle österreichischen Krankenkassen. 
+    Auch wenn Sie als Student:in aus einem EU-Land in Österreich leben und z. B. in Deutschland versichert sind, ist eine Kostenrückerstattung häufig möglich. Ob die Kosten vollständig oder teilweise übernommen werden, klären Sie bitte direkt mit Ihrer Krankenkasse. 
     `,
+  kostenzuschuss: `
+
+  `,
   dauer: `
     Die Häufigkeit der Sitzungen und die Dauer der Psychotherapie werden individuell vereinbart. Im Rahmen der ersten Gespräche treffen wir eine Vereinbarung, die bei Bedarf jederzeit angepasst werden kann.   
     Die Psychotherapiesitzungen finden in der Regel entweder wöchentlich oder 14-tägig statt.
@@ -124,11 +128,8 @@ export const markdown = {
     `,
   über: `
     Mein Name ist Miriam Gertz   
-    Ich bin **Psychotherapeutin in Ausbildung unter Supervision, Psychologin** (MSc) und **Familienplanungsberaterin** (ÖGF).   
-    In 1160 Wien biete ich systemische Psychotherapie und Beratung an. Ich bin in Süddeutschland geboren, in Norddeutschland in Ostseenähe aufgewachsen, lebe seit 2011 in Wien West und bin Mutter zweier Kinder.    
-       
-    \b   
-    #### Was bedeutet „in Ausbildung unter Supervision“?
-    Nach meinem Psychologiestudium habe ich die sechsjährige Psychotherapieausbildung begonnen, bei der ich mich nun im letzten Abschnitt befinde. Ich bin damit dazu berechtigt, selbstständig psychotherapeutisch zu arbeiten. Zur Gewähleistung der Qualität meiner Arbeit reflektiere ich mein therapeutisches Vorgehen regelmäßig unter Wahrung der Verschwiegenheit in Supervisionssitzungen mit erfahrenen Lehrtherapeut:innen.  
-`,
+    Ich bin **Psychotherapeutin, Psychologin** (MSc) und **Familienplanungsberaterin** (ÖGF). \b   
+    In 1160 Wien biete ich systemische Psychotherapie und Beratung an. Ich bin in Süddeutschland geboren, in Norddeutschland in Ostseenähe aufgewachsen, lebe seit 2011 in Wien West und bin Mutter zweier Kinder.       
+    `,
+  workshops: `Ich halte gern und regelmäßig Workshops und bei Gelegenheit auch Vorträge. Fragen Sie mich bei Interesse gern an! Eine Auswahl bisheriger Tätigkeiten: `,
 };

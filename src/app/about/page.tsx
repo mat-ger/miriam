@@ -38,11 +38,19 @@ export default async function Page() {
         {about.cv.map((category) => (
           <div className={styles.bigBocContainer} key={category.headline}>
             <h2>{category.headline}</h2>
+            {category.text && (
+              <div className={styles.container}>
+                <RemoteMdxComponent
+                  textKey={category.text}
+                  key={category.text}
+                />
+              </div>
+            )}
             <ul className={styles.list}>
               {category.items &&
                 category.items.map((item) => (
-                  <li key={item.title + item.subtitle}>
-                    <span>{item.title}</span> {item.subtitle}{" "}
+                  <li key={item.subtitle}>
+                    {item?.title && <span>{item.title}</span>} {item.subtitle}{" "}
                     {item.link && <a href={item.link}>(Link)</a>}
                   </li>
                 ))}

@@ -58,6 +58,13 @@ export default async function Page() {
                 ))}
               </div>
             )}
+            {category.textBottom && (
+              <div className={styles.container}>
+                {category.textBottom.map((text) => (
+                  <RemoteMdxComponent textKey={text} key={text} />
+                ))}
+              </div>
+            )}
           </div>
         ))}
       </BigBox>

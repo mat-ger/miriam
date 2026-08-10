@@ -46,6 +46,15 @@ export const RemoteMdxComponent: React.FC<{ textKey: string }> = ({
             {...props}
           />
         ),
+        h3: (props) => (
+          <h3
+            style={{
+              color: "var(--headline-blue)",
+              fontSize: "1.5rem",
+            }}
+            {...props}
+          />
+        ),
       }}
     />
   );

@@ -34,7 +34,6 @@ export default async function Page() {
           <div className={styles.textContainer}>
             <h2>Miriam Gertz</h2>
             <p>Psychotherapeutin</p>
-            <p>in Ausbildung unter Supervision</p>
             <p>Systemische Therapie</p>
           </div>
           <div>
@@ -95,8 +94,7 @@ export default async function Page() {
           Soziales, Gesundheit, Pflege und Konsumentenschutz
         </p>
         <p>
-          <b>Berufsbezeichnung:</b> Psychotherapeutin in Ausbildung unter
-          Supervision
+          <b>Berufsbezeichnung:</b> Psychotherapeutin
         </p>
         <p>
           <b>Verleihungsstaat: </b>Österreich

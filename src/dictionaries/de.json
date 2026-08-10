@@ -5,14 +5,12 @@
         "image": "/banner_1024.jpg",
         "headline": "Miriam Gertz",
         "sublines": [
-          "Psychotherapeutin (Systemische Therapie)",
-          "in Ausbildung unter Supervision",
-          "Familienplanungsberaterin",
+          "Systemische Psychotherapeutin",
           "Psychologin"
         ]
       },
       "title": "Herzlich Willkommen",
-      "text": "Als Psychotherapeutin in Ausbildung unter Supervision in Wien begleite ich Erwachsene, Jugendliche, Paare, polyamore Beziehungskonstellationen und Familien in Krisen, herausfordernden Übergängen und Entwicklungsprozessen."
+      "text": "Als Psychotherapeutin in Wien begleite ich Erwachsene, Jugendliche, Paare, polyamore Beziehungskonstellationen und Familien in Krisen, herausfordernden Übergängen und Entwicklungsprozessen."
     },
     "offersNav": {
       "headline": "Mein Angebot",
@@ -83,15 +81,21 @@
         "categories": [
           {
             "headline": "Systemische Psychotherapie",
-            "text": ["systemischeTherapie"]
+            "text": [
+              "systemischeTherapie"
+            ]
           },
           {
             "headline": "Konstruktivismus",
-            "text": ["konstruktivismus"]
+            "text": [
+              "konstruktivismus"
+            ]
           },
           {
             "headline": "Narrativer Ansatz",
-            "text": ["narrativerAnsatz"]
+            "text": [
+              "narrativerAnsatz"
+            ]
           }
         ]
       },
@@ -99,13 +103,17 @@
         "name": "beziehungstherapie",
         "banner": {
           "headline": "Beziehungstherapie",
-          "sublines": [""],
+          "sublines": [
+            ""
+          ],
           "image": "/paartherapie_1024.jpg"
         },
         "categories": [
           {
             "headline": "Systemische Paar- und Beziehungstherapie",
-            "text": ["systemsichePaartherapie"]
+            "text": [
+              "systemsichePaartherapie"
+            ]
           }
         ]
       },
@@ -113,13 +121,17 @@
         "name": "familientherapie",
         "banner": {
           "headline": "Familientherapie",
-          "sublines": [""],
+          "sublines": [
+            ""
+          ],
           "image": "/familientherapie_1024.jpg"
         },
         "categories": [
           {
             "headline": "Systemische Familientherapie",
-            "text": ["systemischeFamilientherapie"]
+            "text": [
+              "systemischeFamilientherapie"
+            ]
           }
         ]
       },
@@ -127,13 +139,17 @@
         "name": "schwangerschaftsberatung",
         "banner": {
           "headline": "Schwangerschaftsberatung",
-          "sublines": [""],
+          "sublines": [
+            ""
+          ],
           "image": "/schwangerschaftsberatung_1024.jpg"
         },
         "categories": [
           {
             "headline": "SCHWANGERSCHAFTS(KONFLIKT)BERATUNG",
-            "text": ["schwangerschaftsBeratung"]
+            "text": [
+              "schwangerschaftsBeratung"
+            ]
           }
         ]
       }
@@ -152,44 +168,67 @@
     "categories": [
       {
         "headline": "Verschwiegenheit",
-        "items": [""],
-        "text": ["verschwiegeneit"]
+        "items": [
+          ""
+        ],
+        "text": [
+          "verschwiegeneit"
+        ]
       },
       {
         "headline": "Erstgespräch und Setting",
-        "items": [""],
-        "text": ["erstgespräch"]
+        "items": [
+          ""
+        ],
+        "text": [
+          "erstgespräch"
+        ]
       },
       {
         "headline": "Absageregelung",
-        "items": [""],
-        "text": ["absageregelung"]
+        "items": [
+          ""
+        ],
+        "text": [
+          "absageregelung"
+        ]
+      },
+      {
+        "headline": "Dauer & Frequenz",
+        "items": [
+          ""
+        ],
+        "text": [
+          "dauer"
+        ]
       },
       {
         "headline": "Kosten",
-        "items": [""],
+        "items": [
+          ""
+        ],
         "table": [
           {
-            "headline": "Psychotherapie (Einzelperson)",
+            "headline": "Psychotherapie (Einzelsetting)",
             "items": [
               {
                 "label": "Einheit à 50 Min. ",
-                "value": "€ 80,-",
+                "value": "€ 120,-",
                 "type": ""
               },
               {
                 "label": "Einheit à 90 Min.",
-                "value": "€ 120,-",
+                "value": "€ 200,-",
                 "type": ""
               }
             ]
           },
           {
-            "headline": "Paartherapie / Familientherapie ",
+            "headline": "Paar- und Familientherapie (Mehrpersonensetting)",
             "items": [
               {
                 "label": "Einheit à 90 Min.",
-                "value": "€ 160,- bis € 220,-",
+                "value": "€ 180,- bis € 240,-",
                 "type": ""
               },
               {
@@ -200,17 +239,18 @@
             ]
           }
         ],
-        "text": ["kosten"]
-      },
-      {
-        "headline": "Dauer & Frequenz",
-        "items": [""],
-        "text": ["dauer"]
+        "textBottom": [
+          "kosten"
+        ]
       },
       {
         "headline": "Notfallkontakte",
-        "items": [""],
-        "text": ["notfallkontakte"],
+        "items": [
+          ""
+        ],
+        "text": [
+          "notfallkontakte"
+        ],
         "table": [
           {
             "headline": "Kriseninterventionszentrum Wien",
@@ -310,7 +350,9 @@
     "banner": {
       "image": "miriam",
       "headline": "Über mich",
-      "sublines": ["über"]
+      "sublines": [
+        "über"
+      ]
     },
     "cv": [
       {
@@ -369,12 +411,36 @@
         ]
       },
       {
+        "headline": "WORKSHOPS & VORTRÄGE",
+        "text": "workshops",
+        "items": [
+          {
+            "title": "",
+            "subtitle": "Empowerment-Mädchenworkshops der Stadt Wien",
+            "link": "https://www.wien.gv.at/frauen/girl-power-workshops"
+          },
+          {
+            "title": "",
+            "subtitle": "Umgang mit sexualisierten Übergriffen im Kontext ehrenamtlicher Besuchsdienste (Verein Jung & Alt – Generationen im Dialog)"
+          },
+          {
+            "title": "",
+            "subtitle": "Reproduktive Selbstbestimmung in der Arbeit von Hebammen und verwandten Berufsfeldern (Hebammenzentrum Wien)"
+          },
+          {
+            "title": "",
+            "subtitle": "Vortrag: „Zwischen Stigma-Management und Autonomieerleben: feministisch-psychologische Perspektiven auf Abtreibungserfahrungen im sozialen Kontext“",
+            "link": "http://www.psygyn.at/tagungen/symposium.html"
+          }
+        ]
+      },
+      {
         "headline": "AUSBILDUNG & WEITERBILDUNG",
         "items": [
           {
-            "title": "seit 2022",
-            "subtitle": "laufendes Psychotherapeutisches Fachspezifikum (Lehranstalt für systemische Familientherapie Wien)",
-            "link": ""
+            "title": "2026",
+            "subtitle": "Abschluss Psychotherapeutisches Fachspezifikum (Lehranstalt für systemische Familientherapie Wien)",
+            "link": "http://www.LASF.at"
           },
           {
             "title": "2022",

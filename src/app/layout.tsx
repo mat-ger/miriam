@@ -11,8 +11,7 @@ const inter = Open_Sans({
 });
 
 export const metadata: Metadata = {
-  title:
-    "Miriam Gertz - Psychotherapeutin in Ausbildung unter Supervision, Wien",
+  title: "Miriam Gertz - Psychotherapeutin, Wien",
   description: "Systemische Psychotherapie in 1160 Wien",
   robots: "index, follow",
   authors: { name: "Miriam Gertz" },
@@ -22,7 +21,7 @@ export const metadata: Metadata = {
     "Wien",
     "1170 Wien",
     "1160 Wien",
-    "Psychotherapeutin in Ausbildung unter Supervision",
+    "Psychotherapeutin",
     "Miriam Gertz",
     "Familientherapie",
     "Schwangerschaftsberatung",
@@ -34,8 +33,7 @@ export const metadata: Metadata = {
   appleWebApp: true,
   applicationName: "Miriam Gertz",
   openGraph: {
-    title:
-      "Miriam Gertz - Psychotherapeutin in Ausbildung unter Supervision, Wien",
+    title: "Miriam Gertz - Psychotherapeutin, Wien",
     description: "Systemische Psychotherapie in 1160 Wien",
     type: "website",
     locale: "de_AT",
@@ -45,7 +43,7 @@ export const metadata: Metadata = {
         url: "https://www.gertz.at/miriam-gertz_1024.jpg",
         width: 1024,
         height: 682,
-        alt: "Miriam Gertz - Psychotherapeutin in Ausbildung unter Supervision, Wien",
+        alt: "Miriam Gertz - Psychotherapeutin, Wien",
       },
     ],
   },
