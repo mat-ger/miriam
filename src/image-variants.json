@@ -1,0 +1,42 @@
+{
+  "startseite": {
+    "source": "src/bilder_raw/startseite.jpg",
+    "aliases": ["/banner_1024.jpg"],
+    "widths": [480, 768, 1024, 1440, 1600, 1920, 2560, 3840, 4288]
+  },
+  "psychotherapie": {
+    "source": "src/bilder_raw/psychotherapie.jpg",
+    "aliases": ["/psychotherapie_1024.jpg", "/psychotherapie_320.jpg"],
+    "widths": [160, 320, 480, 768, 1024, 1440, 1600, 1920, 2560, 3840, 4200]
+  },
+  "paartherapie": {
+    "source": "src/bilder_raw/paartherapie.jpg",
+    "aliases": ["/paartherapie_1024.jpg", "/paartherapie_320.jpg"],
+    "widths": [160, 320, 480, 768, 1024, 1440, 1600, 1920, 2560, 3840, 3872]
+  },
+  "familientherapie": {
+    "source": "src/bilder_raw/familientherapie.jpg",
+    "aliases": ["/familientherapie_1024.jpg", "/familientherapie_320.jpg"],
+    "widths": [160, 320, 480, 768, 1024, 1440, 1600, 1920, 2560, 3840, 4608]
+  },
+  "schwangerschaftsberatung": {
+    "source": "src/bilder_raw/schwangerschaftsberatung.jpg",
+    "aliases": ["/schwangerschaftsberatung_1024.jpg", "/schwangerschaftsberatung_320.jpg"],
+    "widths": [160, 320, 480, 768, 1024, 1440, 1600, 1920, 2560, 3840, 4608]
+  },
+  "rahmenbedingungen": {
+    "source": "src/bilder_raw/rahmenbedingungen.jpg",
+    "aliases": ["/rahmenbedingungen_1024.jpg"],
+    "widths": [480, 768, 1024, 1440, 1600, 1920, 2560, 3840, 4608]
+  },
+  "miriam-gertz": {
+    "source": "src/bilder_raw/miriam-gertz.jpg",
+    "aliases": ["/miriam-gertz_1024.jpg"],
+    "widths": [320, 480, 682, 1024, 1440, 1920, 2362]
+  },
+  "praxis": {
+    "source": "public/praxis_1024.jpg",
+    "aliases": ["/praxis_1024.jpg"],
+    "widths": [480, 768, 1024]
+  }
+}

@@ -1,18 +1,21 @@
-import Image from "next/image";
+import { ResponsiveImage } from "./responsive-image";
 import styles from "./image.module.css";
-import { basePath } from "../util";
 
 export const ImageBg: React.FC<{
   src: string;
   alt: string;
-}> = ({ src, alt }) => {
+  priority?: boolean;
+}> = ({ src, alt, priority = false }) => {
   return (
     <div className={styles.container}>
-      <Image
-        src={`${basePath}${src}`}
+      <ResponsiveImage
+        src={src}
         alt={alt}
         fill
-        sizes="100vw"
+        sizes="(prefers-reduced-motion: reduce) max(100vw, 75vh), max(116vw, 87vh)"
+        loading={priority ? "eager" : "lazy"}
+        fetchPriority={priority ? "high" : "auto"}
+        className={styles.image}
         style={{ objectFit: "cover", objectPosition: "center" }}
       />
     </div>

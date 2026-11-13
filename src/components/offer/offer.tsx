@@ -1,44 +1,33 @@
-import React, { Fragment } from "react";
-import { Dictionary } from "../../dictionaries/dictionaries";
+import type { PropsWithChildren } from "react";
 import styles from "./offer.module.css";
-import Image from "next/image";
 import { Section } from "../section/section";
 import { BigBox } from "../big-box/big-box";
-import { basePath } from "../util";
-import { RemoteMdxComponent } from "../markdown-renderer/markdown-renderer";
 import { ImageBg } from "../image/image";
 
-export const Offers: React.FC<{ offers: Dictionary["home"]["offers"] }> = ({
-  offers,
-}) => {
-  return offers.map((offer) => (
-    <Fragment key={offer.name}>
-      <Section id={offer.banner.headline}>
-        <ImageBg
-          src={`${basePath}${offer.banner.image}`}
-          alt="psychotherapie Bild"
-        />
-
-        <div className={styles.content}>
-          <div className={styles.smallBox}>
-            <h1>{offer.banner.headline}</h1>
-            {offer.banner.sublines.map((subline) => (
-              <p key={subline}>{subline}</p>
-            ))}
-          </div>
-          <BigBox>
-            {offer.categories.map((category) => (
-              <div key={category.headline} className={styles.categoryContainer}>
-                <h2>{category.headline}</h2>
-                {category.text &&
-                  category.text.map((item) => (
-                    <RemoteMdxComponent textKey={item} key={item} />
-                  ))}
-              </div>
-            ))}
-          </BigBox>
+export function Offer({ headline, image, children }: PropsWithChildren<{
+  headline: string;
+  image: string;
+}>) {
+  return (
+    <Section id={headline}>
+      <ImageBg src={image} alt="" />
+      <div className={styles.content}>
+        <div className={styles.smallBox}>
+          <h2 className={styles.offerHeadline}>{headline}</h2>
         </div>
-      </Section>
-    </Fragment>
-  ));
-};
+        <BigBox>{children}</BigBox>
+      </div>
+    </Section>
+  );
+}
+
+export function OfferCategory({ headline, children }: PropsWithChildren<{
+  headline: string;
+}>) {
+  return (
+    <div className={styles.categoryContainer}>
+      <h3 className={styles.categoryHeadline}>{headline}</h3>
+      <div className={styles.richText}>{children}</div>
+    </div>
+  );
+}

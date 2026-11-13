@@ -5,6 +5,12 @@
   margin-bottom: 12px;
 }
 
+@media screen and (max-width: 960px) {
+  .headlineContainer {
+    padding-inline: 72px;
+  }
+}
+
 .headline {
   color: var(--headline);
   font-size: 24px;

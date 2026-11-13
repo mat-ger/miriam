@@ -3,46 +3,38 @@ import { Open_Sans } from "next/font/google";
 import "./globals.css";
 import styles from "./layout.module.css";
 import { Header } from "../components/header/header";
+import { site } from "@/site";
 
-const inter = Open_Sans({
+const openSans = Open_Sans({
   subsets: ["latin"],
   preload: true,
   weight: ["400", "700"],
 });
 
+const description = "Systemische Psychotherapie für Einzelpersonen, Paare und Familien sowie Schwangerschaftsberatung in 1160 Wien bei Miriam Gertz.";
+
 export const metadata: Metadata = {
-  title: "Miriam Gertz - Psychotherapeutin, Wien",
-  description: "Systemische Psychotherapie in 1160 Wien",
+  metadataBase: new URL(site.url),
+  title: {
+    default: "Miriam Gertz - Psychotherapeutin, Wien",
+    template: "%s | Miriam Gertz",
+  },
+  description,
   robots: "index, follow",
-  authors: { name: "Miriam Gertz" },
-  keywords: [
-    "Psychotherapie",
-    "Systemische Therapie",
-    "Wien",
-    "1170 Wien",
-    "1160 Wien",
-    "Psychotherapeutin",
-    "Miriam Gertz",
-    "Familientherapie",
-    "Schwangerschaftsberatung",
-    "Systemische Psychotherapie",
-    "Systemische Paartherapie",
-    "Paartherapie",
-    "Beziehungstherapie",
-  ],
+  authors: { name: site.name },
   appleWebApp: true,
   applicationName: "Miriam Gertz",
   openGraph: {
     title: "Miriam Gertz - Psychotherapeutin, Wien",
-    description: "Systemische Psychotherapie in 1160 Wien",
+    description,
     type: "website",
     locale: "de_AT",
-    url: "https://www.gertz.at",
+    url: `${site.url}/`,
     images: [
       {
-        url: "https://www.gertz.at/miriam-gertz_1024.jpg",
-        width: 1024,
-        height: 682,
+        url: `${site.url}/miriam-gertz_1024.jpg`,
+        width: 682,
+        height: 1024,
         alt: "Miriam Gertz - Psychotherapeutin, Wien",
       },
     ],
@@ -51,21 +43,35 @@ export const metadata: Metadata = {
 
 const structuredData = {
   "@context": "https://schema.org",
-  "@type": "Physician",
-  name: "Miriam Gertz",
-  description: "Systemische Psychotherapie in 1160 Wien",
-  url: "https://www.gertz.at",
-  image: "https://www.gertz.at/miriam-gertz_1024.jpg",
-  telephone: "+43 670 3542978",
-  address: {
-    "@type": "PostalAddress",
-    streetAddress: "Paletzgasse 32/4",
-    addressLocality: "Wien",
-    postalCode: "1160",
-    addressCountry: "AT",
-  },
-  medicalSpecialty: "Psychotherapy",
-  areaServed: "Vienna",
+  "@graph": [
+    {
+      "@type": "MedicalBusiness",
+      "@id": `${site.url}/#praxis`,
+      name: `Praxis ${site.name}`,
+      description: "Systemische Psychotherapie und Beratung in Wien",
+      url: site.url,
+      image: `${site.url}/praxis_1024.jpg`,
+      telephone: site.telephone,
+      email: site.email,
+      address: {
+        "@type": "PostalAddress",
+        streetAddress: site.street,
+        addressLocality: site.city,
+        postalCode: site.postalCode,
+        addressCountry: "AT",
+      },
+      founder: { "@id": `${site.url}/#person` },
+    },
+    {
+      "@type": "Person",
+      "@id": `${site.url}/#person`,
+      name: site.name,
+      jobTitle: site.title,
+      image: `${site.url}/miriam-gertz_1024.jpg`,
+      url: `${site.url}/about`,
+      worksFor: { "@id": `${site.url}/#praxis` },
+    },
+  ],
 };
 
 export default function RootLayout({
@@ -74,15 +80,15 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="de-AT">
       <head>
         <link rel="icon" href="/favicon.ico" />
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData).replace(/</g, "\\u003c") }}
         />
       </head>
-      <body className={inter.className}>
+      <body className={openSans.className}>
         <Header />
 
         <main className={styles.main}>{children}</main>

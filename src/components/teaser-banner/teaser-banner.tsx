@@ -1,27 +1,30 @@
 import React from "react";
 import styles from "./teaser-banner.module.css";
-import { Dictionary } from "../../dictionaries/dictionaries";
 import { ImageBg } from "../image/image";
 import { Section } from "../section/section";
 import { BigBox } from "../big-box/big-box";
 
 export const TeaserBanner: React.FC<{
-  welcome: Dictionary["home"]["welcome"];
-}> = ({ welcome }) => {
+  image: string;
+  headline: string;
+  sublines: string[];
+  title?: string;
+  text?: string;
+}> = ({ image, headline, sublines, title, text }) => {
   return (
     <Section>
-      <ImageBg src="/banner_1024.jpg" alt="Teaser Banner" />
+      <ImageBg src={image} alt="" priority />
       <div className={styles.content}>
         <div className={styles.smallBox}>
-          <h1>{welcome.banner.headline}</h1>
-          {welcome.banner.sublines.map((subline) => (
+          <h1>{headline}</h1>
+          {sublines.map((subline) => (
             <p key={subline}>{subline}</p>
           ))}
         </div>
-        {welcome.title && welcome.text && (
+        {title && text && (
           <BigBox>
-            <h2>{welcome.title}</h2>
-            <p>{welcome.text}</p>
+            <h2>{title}</h2>
+            <p>{text}</p>
           </BigBox>
         )}
       </div>

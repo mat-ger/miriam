@@ -9,7 +9,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  overflow: scroll;
 }
 
 .smallBox {
@@ -26,4 +25,62 @@
 
 .categoryContainer {
   padding-bottom: 32px;
+}
+
+.offerHeadline {
+  color: var(--headline-blue);
+  font-size: 34px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: right;
+  padding: 0;
+  margin: 0;
+}
+
+.offerHeadline::after {
+  display: none;
+}
+
+.categoryHeadline {
+  color: var(--headline-blue);
+  font-size: 24px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+  padding-bottom: 24px;
+  margin-bottom: 24px;
+}
+
+.categoryHeadline::after {
+  content: "";
+  position: absolute;
+  width: 64px;
+  height: 2px;
+  background: var(--headline-blue);
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.richText p {
+  text-align: justify;
+  hyphens: auto;
+}
+
+.richText ul {
+  list-style: disc outside;
+  padding: 0 32px;
+}
+
+.richText blockquote {
+  font-weight: bold;
+  color: var(--headline-blue);
+  text-align: center;
+}
+
+@media screen and (max-width: 540px) {
+  .offerHeadline { font-size: 26px; }
+  .categoryHeadline { font-size: 20px; }
 }

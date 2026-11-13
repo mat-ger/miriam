@@ -1,11 +1,19 @@
-.blockquote {
-  text-align: unset;
-}
-
 .container {
   & p {
     text-align: justify;
     hyphens: auto;
+  }
+
+  & h3 {
+    margin-top: 24px;
+    font-size: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+  }
+
+  & ol {
+    list-style: decimal;
+    padding-left: 32px;
   }
 
   & table {

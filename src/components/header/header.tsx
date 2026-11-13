@@ -1,18 +1,22 @@
 "use client";
 
 import Link from "next/link";
+import { useState } from "react";
+import { site } from "@/site";
 import styles from "./header.module.css";
 
 export const Header = () => {
+  const [open, setOpen] = useState(false);
   return (
     <header className={styles.header}>
       <nav role="navigation" className={styles.nav}>
         <div className={styles.menuToggle}>
-          <input type="checkbox" className={styles.input} />
-          <span />
-          <span />
-          <span />
-          <ul className={styles.menu}>
+          <button type="button" className={styles.toggle} aria-label={open ? "Menü schließen" : "Menü öffnen"} aria-expanded={open} aria-controls="main-menu" onClick={() => setOpen(!open)}>
+            <span />
+            <span />
+            <span />
+          </button>
+          <ul id="main-menu" className={`${styles.menu} ${open ? styles.menuOpen : ""}`} onClick={() => setOpen(false)}>
             <li className={`${styles.textLogo} ${styles.spaces}`}>
               <Link href="/">Miriam Gertz, MSc</Link>
             </li>
@@ -29,7 +33,7 @@ export const Header = () => {
               <Link href="/contact">Kontakt</Link>
             </li>
             <li className={styles.spaces}>
-              <a href="tel:+436703542978">+43 670 3542978</a>
+              <a href={`tel:${site.telephoneHref}`}>{site.telephone}</a>
             </li>
           </ul>
         </div>
